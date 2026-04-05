@@ -1,26 +1,24 @@
-
----
-
-## 📄 `CITATION.cff` (для академического цитирования)
-
-```yaml
 cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
+
 title: "FlatIrrationalTorus: Validation of the Flat Irrational Torus cosmological model"
+
 abstract: |
   A compact flat topology model with irrational aspect ratios 
-  L_y/L_x=√2, L_z/L_x=√3 and minimal scale L_x=2χ_rec. 
+  L_y/L_x=sqrt(2), L_z/L_x=sqrt(3) and minimal scale L_x=2*chi_rec. 
   Tested against Planck PR4 data via BipoSH and CITS observables.
+
 authors:
   - family-names: "Logvinovich"
     given-names: "Viktor"
-    name-particle: "Logvinovich"
     email: "lomakez@icloud.com"
     affiliation: "Independent Researcher"
-version: 1.0.0
-doi: "10.5281/zenodo.XXXXXXX"
+    orcid: "https://orcid.org/0000-0000-0000-0000"
+
+version: 1.0.3
 date-released: 2026-04-05
-url: "https://github.com/ViktorLogvinovich/FlatIrrationalTorus"
+url: "https://github.com/Viktar-Pi/FlatIrrationalTorus"
+
 keywords:
   - "cosmology"
   - "topology"
@@ -29,19 +27,21 @@ keywords:
   - "BipoSH"
   - "Hubble tension"
   - "Cold Spot"
+
 license: MIT
-repository-code: "https://github.com/ViktorLogvinovich/FlatIrrationalTorus"
+repository-code: "https://github.com/Viktar-Pi/FlatIrrationalTorus"
+
 references:
   - type: article
     title: "Planck 2018 results. VI. Cosmological parameters"
     authors:
       - family-names: "Aghanim"
         given-names: "N."
-        et-al: true
     journal: "Astronomy & Astrophysics"
     year: 2020
     volume: 641
     doi: "10.1051/0004-6361/201833910"
+    
   - type: article
     title: "Testing the isotropy of the Universe with BipoSH decomposition"
     authors:
@@ -52,4 +52,4 @@ references:
     journal: "Physical Review D"
     year: 2013
     volume: 88
-    doi: "10.5281/zenodo.XXXXXXX"  
+    doi: "10.1103/PhysRevD.88.101301"
