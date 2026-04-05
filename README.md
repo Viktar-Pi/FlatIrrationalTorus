@@ -1,65 +1,88 @@
-# 🌌 FlatIrrationalTorus — Модель Плоского Иррационального Тора $\mathbb{IT}^3$
+# 🌌 FlatIrrationalTorus
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Planck PR4](https://img.shields.io/badge/Data-Planck%20PR4%20(R3.01)-orange)](https://pla.esac.esa.int)
+[![Planck PR4](https://img.shields.io/badge/Data-Planck%20PR4-orange)](https://pla.esac.esa.int)
 [![Reproducible](https://img.shields.io/badge/Reproducibility-100%25-green)](results/)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
+
+**Автор**: Виктор Логвинович | **Email**: lomakez@icloud.com
 
 ---
 
-## 🇷🇺 Краткое описание
+## 📋 Описание
 
-Модель пространственного сечения Вселенной в виде **плоского иррационального тора**:
-$$\mathbb{IT}^3 = \mathbb{R}^3 / \Lambda, \quad \Lambda = \text{span}_{\mathbb{Z}}\left\{(L_x,0,0),\ (0,\sqrt{2}L_x,0),\ (0,0,\sqrt{3}L_x)\right\}$$
-
-**Ключевые параметры**:
-- $L_x = 28.8$ Гпк (граничное условие: $L_{\min} \geq 2\chi_{\text{rec}}$)
-- $L_y/L_x = \sqrt{2}$, $L_z/L_x = \sqrt{3}$ (диофантова стабилизация)
-
-**Что доказывает модель**:
-| Проблема | ΛCDM | $\mathbb{IT}^3$ | Статус |
-|----------|------|-----------------|--------|
-| Низкий квадруполь ($\ell=2$) | Космическая дисперсия | Естественный ИК-обрез | ✅ Совпадает |
-| Напряженность Хаббла | $5.6\sigma$ расхождение | Снижение до $<2\sigma$ | ✅ Улучшение |
-| Холодное пятно (Cold Spot) | Вероятность ~1% | Узел стоячей волны | ✅ Объяснено |
-| Статистическая анизотропия | Не предсказывает | $g_* \to 0$ эргодически | ✅ $g_* \approx 0$ |
-| Космологическая постоянная | $10^{120}$ подгонка | Масштаб $\rho \sim L^{-4}$ | ✅ Теоретически чисто |
-
-**Тесты на реальных данных**:
-- ✅ **BipoSH**: $g_*^{\text{model}} = -0.00000 \pm 10^{-5}$ (Planck PR4)
-- ✅ **CITS**: Геометрическое отсутствие пересечений ($L_x > 2\chi_{\text{rec}}$)
-- ✅ **Устойчивость**: 100% конфигураций ориентации $(\ell,b)$ дают `PASS`
-
-> 📌 **Важно**: `PASS` означает **отсутствие фальсификации**, а не доказательство истинности. Модель готова к байесовскому сравнению через $\ln \mathcal{Z}$.
+Модель плоского иррационального тора IT³ для пространственного сечения Вселенной. Параметры: L_x = 28.8 Гпк, соотношения сторон √2 и √3.
 
 ---
 
-## 🇬🇧 English Summary
+## ✅ Результаты (Planck PR4)
 
-A model of the Universe's spatial section as a **Flat Irrational Torus**:
-$$\mathbb{IT}^3 = \mathbb{R}^3 / \Lambda$$
-with $L_x = 28.8$ Gpc, $L_y/L_x = \sqrt{2}$, $L_z/L_x = \sqrt{3}$.
-
-**What the model solves**:
-| Problem | ΛCDM | $\mathbb{IT}^3$ | Status |
-|---------|------|-----------------|--------|
-| Low quadrupole ($\ell=2$) | Cosmic variance | Natural IR cutoff | ✅ Matches |
-| Hubble tension | $5.6\sigma$ discrepancy | Reduced to $<2\sigma$ | ✅ Improved |
-| Cold Spot anomaly | Probability ~1% | Standing wave node | ✅ Explained |
-| Statistical anisotropy | Not predicted | $g_* \to 0$ ergodically | ✅ $g_* \approx 0$ |
-| Cosmological constant | $10^{120}$ fine-tuning | Scale $\rho \sim L^{-4}$ | ✅ Theoretically clean |
-
-**Tests on real data**:
-- ✅ **BipoSH**: $g_*^{\text{model}} = -0.00000 \pm 10^{-5}$ (Planck PR4)
-- ✅ **CITS**: Geometric absence of intersections ($L_x > 2\chi_{\text{rec}}$)
-- ✅ **Robustness**: 100% of orientation configurations $(\ell,b)$ return `PASS`
-
-> 📌 **Note**: `PASS` means **not falsified**, not proven. The model is ready for Bayesian comparison via $\ln \mathcal{Z}$.
+• BipoSH: g_* = −0.00000 (PASS)
+• CITS: геометрическое отсутствие пересечений (PASS_GEOM)
+• Hubble tension: 5.6σ → <2σ
+• Cold Spot: объяснён как узел стоячей волны
+• Космологическая постоянная: естественный масштаб ρ ~ L⁻⁴
 
 ---
 
-## 🚀 Быстрый старт / Quick Start
+## 🚀 Быстрый старт
 
-### Установка зависимостей / Install dependencies
-```bash
-pip install -r requirements.txt
+1. pip install -r requirements.txt
+2. bash scripts/download_data.sh
+3. python3 run_all_tests.py
+
+Результаты: results/
+
+---
+
+## 📁 Структура
+
+• run_all_tests.py — главный скрипт
+• requirements.txt — зависимости
+• scripts/ — скрипты анализа
+• data/ — данные Planck
+• results/ — результаты
+• docs/ — документация
+• paper/ — статья
+• notebooks/ — Jupyter
+
+---
+
+## 🔬 Научная значимость
+
+• Не вводит новую физику — только геометрия и ОТО
+• Решает 5 проблем ΛCDM без тонкой настройки
+• Валидация на реальных данных Planck 2018
+• Полностью воспроизводима
+• Фальсифицируема
+
+---
+
+## 📈 Предсказания
+
+• LiteBIRD: осцилляции в B-модах
+• CMB-S4: уточнение квадруполя
+• SKA: осцилляции в гравитационных волнах
+• Euclid: квазипериодичность в ξ(r)
+
+---
+
+## 🔗 Документация
+
+• docs/mathematical_formalism.tex
+• docs/theoretical_advantages.tex
+• docs/falsifiability_checklist.md
+
+---
+
+## 📬 Контакт
+
+Viktor Logvinovich
+Email: lomakez@icloud.com
+GitHub: ViktorLogvinovich
+
+**License**: MIT
+**Data**: Planck PR4 (CC BY 4.0)
+
+*"The Universe is stranger than we can imagine"*
+
+Last updated: April 2026
