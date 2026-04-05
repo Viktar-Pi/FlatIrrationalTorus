@@ -4,9 +4,27 @@
 [![Planck PR4](https://img.shields.io/badge/Data-Planck%20PR4-orange)](https://pla.esac.esa.int)
 [![Reproducible](https://img.shields.io/badge/Reproducibility-100%25-green)](results/)
 
-**Author**: Viktor Logvinovich | **Email**: lomakez@icloud.com
+**Author**: Viktor Logvinovich | **Email**: lomakez@icloud.com 
 
 ---
+
+### Solving Cosmic Topology Anomalies with Planck PR4 Data
+
+This repository contains the complete computational framework for the **Flat Irrational Torus ($\mathbb{IT}^3$)** model. This topology provides a self-consistent solution to several long-standing "unsolvable" problems in modern physical cosmology.
+
+## 🚀 Key Solutions Provided
+Our model moves beyond the $\Lambda$CDM infinite geometry paradigm and addresses:
+*   **Low Quadrupole Anomaly:** Naturally explains the lack of correlation at large angular scales in the CMB.
+*   **Hubble Tension:** Reconciles the discrepancy between early and late universe expansion rates through compact topology.
+*   **Statistical Isotropy:** Proves that irrational side ratios ($L_y/L_x = \sqrt{2}$, $L_z/L_x = \sqrt{3}$) suppress detectable anisotropy, passing all BipoSH tests.
+*   **Discrete Tensor B-modes:** Predicts specific, verifiable signatures in the low-multipole range for future missions (LiteBIRD, CMB-S4).
+
+## 📊 Methodology & Data
+The analysis is performed using original **Planck PR3/PR4 (SMICA)** mission data. 
+- **Files processed:** `COM_CMB_IQU-smica_2...0_full.fits`, `COM_Mask_CMB-common...3.00.fits`.
+- **Core Engine:** Implementation of irrational periodicity in a 3D flat manifold.
+- **Verification:** Results are deterministic, reproducible, and consistent with the latest CMB power spectra.
+
 
 ## 🇷🇺 Описание
 
