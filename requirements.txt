@@ -1,0 +1,29 @@
+# Core scientific stack
+numpy>=1.24.0
+scipy>=1.10.0
+matplotlib>=3.7.0
+
+# Cosmology & CMB
+healpy>=1.16.0
+astropy>=5.2.0
+
+# Symbolic math for Wigner symbols
+sympy>=1.11.0
+
+# Data handling
+pandas>=2.0.0
+requests>=2.31.0
+
+# Visualization
+seaborn>=0.12.0
+
+# Bayesian analysis (optional)
+# cobaya>=3.4.0
+# getdist>=1.4.0
+
+# Jupyter (optional)
+# jupyter>=1.0.0
+# notebook>=7.0.0
+
+# Testing
+pytest>=7.3.0
