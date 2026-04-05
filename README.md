@@ -4,77 +4,83 @@
 [![Planck PR4](https://img.shields.io/badge/Data-Planck%20PR4-orange)](https://pla.esac.esa.int)
 [![Reproducible](https://img.shields.io/badge/Reproducibility-100%25-green)](results/)
 
-**Автор**: Виктор Логвинович | **Email**: lomakez@icloud.com
+**Author**: Viktor Logvinovich | **Email**: lomakez@icloud.com
 
 ---
 
-## 📋 Описание
+## 🇷🇺 Описание
 
-Модель плоского иррационального тора IT³ для пространственного сечения Вселенной. Параметры: L_x = 28.8 Гпк, соотношения сторон √2 и √3.
+Модель плоского иррационального тора IT³. Параметры: L_x = 28.8 Гпк, L_y/L_x = √2, L_z/L_x = √3.
+
+Результаты (Planck PR4):
+- BipoSH: g_* = −0.00000 (PASS)
+- CITS: отсутствие пересечений (PASS_GEOM)
+- Hubble tension: 5.6σ → <2σ
+- Cold Spot: объяснён
+
+## 🇬🇧 Description
+
+Flat Irrational Torus model IT³. Parameters: L_x = 28.8 Gpc, L_y/L_x = √2, L_z/L_x = √3.
+
+Results (Planck PR4):
+- BipoSH: g_* = −0.00000 (PASS)
+- CITS: no intersections (PASS_GEOM)
+- Hubble tension: 5.6σ → <2σ
+- Cold Spot: explained
 
 ---
 
-## ✅ Результаты (Planck PR4)
-
-• BipoSH: g_* = −0.00000 (PASS)
-• CITS: геометрическое отсутствие пересечений (PASS_GEOM)
-• Hubble tension: 5.6σ → <2σ
-• Cold Spot: объяснён как узел стоячей волны
-• Космологическая постоянная: естественный масштаб ρ ~ L⁻⁴
-
----
-
-## 🚀 Быстрый старт
+## 🚀 Запуск / Quick Start
 
 1. pip install -r requirements.txt
 2. bash scripts/download_data.sh
 3. python3 run_all_tests.py
 
-Результаты: results/
+Results: results/
 
 ---
 
-## 📁 Структура
+## 📁 Структура / Structure
 
-• run_all_tests.py — главный скрипт
-• requirements.txt — зависимости
-• scripts/ — скрипты анализа
-• data/ — данные Planck
-• results/ — результаты
-• docs/ — документация
-• paper/ — статья
-• notebooks/ — Jupyter
-
----
-
-## 🔬 Научная значимость
-
-• Не вводит новую физику — только геометрия и ОТО
-• Решает 5 проблем ΛCDM без тонкой настройки
-• Валидация на реальных данных Planck 2018
-• Полностью воспроизводима
-• Фальсифицируема
+run_all_tests.py — main script
+requirements.txt — dependencies
+scripts/ — analysis scripts
+data/ — Planck data
+results/ — results
+docs/ — documentation
+paper/ — paper draft
+notebooks/ — Jupyter notebooks
 
 ---
 
-## 📈 Предсказания
+## 🔬 Значимость / Significance
 
-• LiteBIRD: осцилляции в B-модах
-• CMB-S4: уточнение квадруполя
-• SKA: осцилляции в гравитационных волнах
-• Euclid: квазипериодичность в ξ(r)
-
----
-
-## 🔗 Документация
-
-• docs/mathematical_formalism.tex
-• docs/theoretical_advantages.tex
-• docs/falsifiability_checklist.md
+- No new physics — only geometry + GR
+- Solves 5 ΛCDM problems
+- Validated on Planck 2018
+- Fully reproducible
+- Falsifiable
 
 ---
 
-## 📬 Контакт
+## 📈 Предсказания / Predictions
+
+- LiteBIRD: B-mode oscillations
+- CMB-S4: quadrupole refinement
+- SKA: GW spectrum oscillations
+- Euclid: galaxy correlation
+
+---
+
+## 🔗 Документация / Docs
+
+- docs/mathematical_formalism.tex
+- docs/theoretical_advantages.tex
+- docs/falsifiability_checklist.md
+
+---
+
+## 📬 Контакт / Contact
 
 Viktor Logvinovich
 Email: lomakez@icloud.com
