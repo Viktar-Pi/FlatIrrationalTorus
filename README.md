@@ -98,7 +98,7 @@ Contributions welcome! Please:
 
 **Viktor Logvinovich**  
 📧 lomakez@icloud.com  
-🔗 [GitHub Profile](https://github.com/Viktar-Pi/FlatIrrationalTorus/)
+🔗 [GitHub Profile](https://github.com/Viktar-Pi)
 
 ---
 
