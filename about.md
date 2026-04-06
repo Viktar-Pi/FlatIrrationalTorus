@@ -182,24 +182,26 @@ This repository contains the mathematical foundation proving that:
 ---
 
 ## 🗝️ Ключевые идеи | Key Concepts
- 
-🔹 Зарисский родился в Кобрине (1899) → его топология → структура Вселенной
-🔹 Плоский тор + иррациональный сдвиг = конечность без границ
-🔹 π, √2, √3 — геометрические инварианты эволюции космоса
-🔹 Додекаэдр — ключ к визуализации многомерной связности
-🔹 Ленинградская школа теории чисел + кобринская интуиция = прорыв
-🔹 Обычная школа + обычные дети = честная наука без догм
-🔹 Открытый код + открытый доступ = наука для человечества
-🔹 6 апреля: статья отправлена → 12 апреля: «врата открыты» = синхроничность
-🔹 Zariski was born in Kobrin (1899) → his topology → structure of the Universe
-🔹 Flat torus + irrational shift = finiteness without boundaries
-🔹 π, √2, √3 — geometric invariants of cosmic evolution
-🔹 Dodecahedron — key to visualizing multidimensional connectivity
-🔹 Leningrad number theory school + Kobrin intuition = breakthrough
-🔹 Ordinary school + ordinary kids = honest science without dogma
-🔹 Open code + open access = science for humanity
-🔹 April 6: paper submitted → April 12: "gates open" = synchronicity
 
+### 🇷🇺
+- ♦ Зарисский родился в Кобрине (1899) → его топология → структура Вселенной
+- ♦ Плоский тор + иррациональный сдвиг = конечность без границ
+- ♦ π, √2, 3 — геометрические инварианты эволюции космоса
+- ♦ Додекаэдр — ключ к визуализации многомерной связности
+- ♦ Ленинградская школа теории чисел + кобринская интуиция = прорыв
+- ♦ Обычная школа + обычные дети = честная наука без догм
+- ♦ Открытый код + открытый доступ = наука для человечества
+- ♦ 6 апреля: статья отправлена → 12 апреля: «врата открыты» = синхроничность
+
+### 🇬
+- ♦ Zariski was born in Kobrin (1899) → his topology → structure of the Universe
+- ♦ Flat torus + irrational shift = finiteness without boundaries
+- ♦ π, √2, √3 — geometric invariants of cosmic evolution
+- ♦ Dodecahedron — key to visualizing multidimensional connectivity
+- ♦ Leningrad number theory school + Kobrin intuition = breakthrough
+- ♦ Ordinary school + ordinary kids = honest science without dogma
+- ♦ Open code + open access = science for humanity
+- ♦ April 6: paper submitted → April 12: "gates open" = synchronicity
 
 ---
 
