@@ -45,32 +45,13 @@ python3 analysis/run_all.py
 ```
 FlatIrrationalTorus/
 ├── analysis/           # MCMC pipeline and likelihood
-│   ├── run_all.py
-│   ├── likelihood_it3.py
-│   ├── mcmc_sampler.py
-│   └── utils.py
 ├── scripts/            # Plotting and utilities
-│   ├── plot_correlation.py
-│   ├── plot_corner.py
-│   ├── check_survival.py
-│   └── extract_stats.py
 ├── data/               # MCMC chains
-│   ├── samples_it3.pkl
-│   └── samples_lcdm.pkl
 ├── figures/            # Publication figures
-│   ├── corner_it3.png
-│   ├── correlation_Lx_H0.png
-│   └── survival_check_DESI.png
 ├── paper/              # LaTeX manuscript
-│   ├── main.tex
-│   └── references.bib
 ├── paper_package/      # Publication documents
 ├── notebooks/          # Jupyter explorations
 ├── docker/             # Reproducible environment
-│   ├── Dockerfile
-│   └── requirements.txt
-├── tests/              # Unit tests
-├── docs/               # Documentation
 ├── LICENSE             # MIT License
 ├── CITATION.cff        # Citation metadata
 └── README.md           # This file
@@ -82,7 +63,7 @@ FlatIrrationalTorus/
 
 **Inference:** Bayesian MCMC (emcee, 32 walkers, 5000 steps) with modified CLASS Boltzmann code
 
-**Transfer Function:** F(ℓ) = [1 + exp(-(ℓ-ℓ<sub>cut</sub>)/Δℓ)]⁻¹
+**Transfer Function:** F(ℓ) = [1 + exp(-(ℓ-ℓ<sub>cut</sub>)/Δℓ)]<sup>-1</sup>
 
 **Data:** Planck PR4 (NPIPE) temperature spectrum, 2 ≤ ℓ ≤ 2000
 
@@ -108,37 +89,25 @@ FlatIrrationalTorus/
 
 Contributions welcome! Please:
 1. Fork the repository
-2. Create a feature branch: `git checkout -b feature/amazing-idea`
-3. Commit changes: `git commit -m 'Add amazing idea'`
-4. Push to branch: `git push origin feature/amazing-idea`
+2. Create a feature branch
+3. Commit changes
+4. Push to branch
 5. Open a Pull Request
 
-**Guidelines:**
-- Follow PEP 8 for Python code
-- Include docstrings and type hints
-- Add tests for new functionality
+## 📬 Contact
 
-## 📬 Contact & Support
-
-**Corresponding Author:**  
-Viktor Logvinovich  
+**Viktor Logvinovich**  
 📧 lomakez@icloud.com  
-🔗 [GitHub Profile](https://github.com/Viktar-Pi)
-
-**Bug Reports & Questions:**  
-Please use the [GitHub Issues](https://github.com/Viktar-Pi/FlatIrrationalTorus/issues) tracker.
+🔗 [GitHub Profile](https://github.com/Viktar-Pi/FlatIrrationalTorus/)
 
 ---
 
 ## 📜 License & Citation
 
-### License
-This code is distributed under the **MIT License**.  
-The manuscript text is licensed under **CC-BY-4.0**.
+**Code:** MIT License  
+**Manuscript:** CC-BY-4.0
 
-### Citation
-If you use this software or results in your research, please cite:
-
+**BibTeX:**
 ```bibtex
 @article{Logvinovich2026IT3,
   title = {Flat Irrational Torus Topology: Simultaneous Resolution of Low-ℓ Anomaly and Hubble Tension},
@@ -150,9 +119,7 @@ If you use this software or results in your research, please cite:
 }
 ```
 
-### Zenodo Archive
-A permanent, versioned archive of this repository is available at:  
-🔗 [10.5281/zenodo.19440498](https://doi.org/10.5281/zenodo.19440498)
+**Zenodo:** [10.5281/zenodo.19440498](https://doi.org/10.5281/zenodo.19440498)
 
 ---
 
