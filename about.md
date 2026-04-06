@@ -314,6 +314,36 @@ While others hide behind statistics and fear being wrong, I see **structure**. I
 
 ---
 
+## 💼 Системный опыт | System Experience
+
+### 🇷🇺
+> *«Меня сняли с кадрового резерва без объяснения причин. Я узнал об этом втихаря, от других. Система надеялась, что я уйду тихо.»*
+
+**Но я не ушёл.**
+
+Я продолжил:
+- 🎓 Готовить учеников (4 — в Специальном фонде Президента РБ)
+- 🧮 Думать, доказывать, искать
+- 🏫 Работать в обычной школе с обычными детьми
+- 🌌 Искать ответ на вопрос о топологии Вселенной
+
+Система молчала — математика заговорила.
+
+### 
+> *"I was removed from the personnel reserve without explanation. I found out quietly, from others. The system hoped I would leave quietly."*
+
+**But I didn't leave.**
+
+I kept:
+- 🎓 Teaching students (4 — in the Presidential Special Fund for Gifted Youth of Belarus)
+- 🧮 Thinking, proving, searching
+- 🏫 Working in an ordinary school with ordinary children
+- 🌌 Seeking the answer to the topology of the Universe
+
+The system stayed silent — mathematics spoke.
+
+---
+
 ## ⚡ Позиция автора | Author's Stance
 
 ### 🇷🇺
