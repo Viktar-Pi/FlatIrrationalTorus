@@ -212,6 +212,13 @@ If you find an error, improve the model, or just want to discuss — open an Iss
 • the Leningrad school of number theory,
 • ordinary teachers and ordinary children,
 • and everyone who believes that great discoveries can come from small towns.
+
+<div align="center">
+
+### 🌍 Вселенная конечна. Любопытство — бесконечно.
+**Сделано с ❤️ в Кобрине**
+
+</div>
 ─────────────────────────────────────────────
 MIT License
 Copyright (c) 2026 Viktar Lohvinovich
