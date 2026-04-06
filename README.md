@@ -64,6 +64,7 @@ FlatIrrationalTorus/
 ├── paper/              # LaTeX manuscript
 │   ├── main.tex
 │   └── references.bib
+├── paper_package/      # Publication documents
 ├── notebooks/          # Jupyter explorations
 ├── docker/             # Reproducible environment
 │   ├── Dockerfile
@@ -81,7 +82,7 @@ FlatIrrationalTorus/
 
 **Inference:** Bayesian MCMC (emcee, 32 walkers, 5000 steps) with modified CLASS Boltzmann code
 
-**Transfer Function:** Topological suppression F(ℓ) = [1 + exp(-(ℓ-ℓ<sub>cut</sub>)/Δℓ)]⁻¹
+**Transfer Function:** F(ℓ) = [1 + exp(-(ℓ-ℓ<sub>cut</sub>)/Δℓ)]⁻¹
 
 **Data:** Planck PR4 (NPIPE) temperature spectrum, 2 ≤ ℓ ≤ 2000
 
@@ -91,7 +92,7 @@ FlatIrrationalTorus/
 
 | Mission | Observable | IT³ Prediction |
 |---------|-----------|----------------|
-| **LiteBIRD** | Low-ℓ B-modes | Characteristic oscillations at ℓ ≲ 10 |
+| **LiteBIRD** | Low-ℓ B-modes | Oscillations at ℓ ≲ 10 |
 | **CMB-S4** | Quadrupole precision | ΔC<sub>2</sub>/C<sub>2</sub> ~ 5% test |
 | **Euclid/DESI** | BAO at z > 2 | Sub-percent deviations in D<sub>M</sub>(z)/r<sub>d</sub> |
 | **SKA** | 21cm intensity mapping | Anisotropic correlation at scales ~ L<sub>x</sub> |
