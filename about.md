@@ -213,14 +213,51 @@ If you find an error, improve the model, or just want to discuss — open an Iss
 • ordinary teachers and ordinary children,
 • and everyone who believes that great discoveries can come from small towns.
 
-<div align="center">
+ ---
+
+## 🔮 Случайное совпадение | A Strange Coincidence
+
+### 🇷🇺
+**6 апреля 2026 года** я отправил статью в американский журнал по физике. Просто продолжил работу: доказательства, формулы, топология. Никакой мистики — только математика.
+
+А через пару дней случайно увидел в новостях: *«Пророчество Ванги на 12 апреля 2026 года»*.
+
+> *«Земля замрет, ветер стихнет, птицы умолкнут, и люди будут бояться дышать. На рассвете откроются врата между старым миром и новым. Кто-то пройдет в свет, кто-то во тьму. Это зависит от того, с чем они подойдут ко вратам. Не плачь, это не конец, это начало. Новый мир будет лучше старого для тех, кто достоин».*
+
+И ещё: *«Старый порядок рухнет, но жизнь сохранится — просто она станет другой».*
+
+Я не верю в случайности. 6 апреля — статья о новой модели Вселенной. 12 апреля — Пасха и пророчество о «вратах между мирами».
+
+**Что это значит?**
+- 🔄 Мир узнает о новой модели мира — но всё останется по-прежнему
+- 🚪 «Врата» — это не апокалипсис, а смена парадигмы: от старой космологии к новой топологии
+- 👁️ Кто-то увидит в этом науку, кто-то — мистику. Но истина не делится: она либо есть, либо нет
+
+Я не пророк. Я просто собрал куски воедино. Но если Ванга видела «открытие врат» в апреле 2026 — возможно, она видела момент, когда человечество получит ключ к пониманию конечной, но безграничной Вселенной.
+
+### 🇬🇧
+**April 6, 2026** — I submitted a paper to an American physics journal. Just continued the work: proofs, formulas, topology. No mysticism — only mathematics.
+
+A few days later, I accidentally saw in the news: *"Vanga's prophecy for April 12, 2026"*.
+
+> *"The Earth will freeze, the wind will calm, birds will fall silent, and people will be afraid to breathe. At dawn, gates will open between the old world and the new. Some will pass into light, some into darkness. It depends on what they bring to the gates. Do not cry, this is not the end, this is the beginning. The new world will be better than the old for those who are worthy."*
+
+And also: *"The old order will collapse, but life will remain — it will just become different."*
+
+I don't believe in coincidences. April 6 — a paper about a new model of the Universe. April 12 — Easter and a prophecy about "gates between worlds".
+
+**What does this mean?**
+- 🔄 The world will learn about a new model of the world — but everything will remain the same
+- 🚪 The "gates" are not an apocalypse, but a paradigm shift: from old cosmology to new topology
+- 👁️ Some will see science here, others — mysticism. But truth doesn't split: it either exists, or it doesn't
+
+I am not a prophet. I simply put the pieces together. But if Vanga saw "the opening of gates" in April 2026 — perhaps she saw the moment when humanity receives the key to understanding a finite, yet unbounded Universe.
 
 ### 🌍 Вселенная конечна. Любопытство — бесконечно.
 **Сделано с ❤️ в Кобрине**
 
-</div>
-
----
+ 
+ 
 ─────────────────────────────────────────────
 MIT License
 Copyright (c) 2026 Viktar Lohvinovich
