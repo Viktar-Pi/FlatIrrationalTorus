@@ -91,3 +91,11 @@ git clone https://github.com/Viktar-Pi/FlatIrrationalTorus
 cd FlatIrrationalTorus
 git checkout v1.2.0-revision  # Tag for revised version
 docker run -v $(pwd)/results:/app/results it3-analysis python3 analysis/run_all.py
+
+All MCMC chains, figures, and statistical outputs match those reported in the revised manuscript.
+Signed: Viktor Logvinovich
+Date: [Date]
+
+All MCMC chains, figures, and statistical outputs match those reported in the revised manuscript.
+Signed: Viktor Logvinovich
+Date: [Date]
