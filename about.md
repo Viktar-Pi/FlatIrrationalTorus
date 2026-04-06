@@ -149,6 +149,26 @@ Including scholars from scientific circles who couldn't help me register on [arX
 
 ---
 
+## 👨‍👩‍👦 Семья — мой главный тыл | Family — My Greatest Support
+
+### 🇷🇺
+> *«Без них этого доказательства просто не было бы.»*
+
+- ❤️ **Жене Юле** — за терпение, когда я пропадал в формулах до утра. За то, что верила, даже когда я сам сомневался. За то, что создавала уют и тишину, в которых рождались идеи. Ты — мой самый важный соавтор, хотя твоего имени нет в формулах.
+- 🌟 **Сыну Егору** — за вопросы «на засыпку», которые заставляли смотреть на задачи под новым углом. За то, что своим детским «А почему?» напоминал: истина должна быть проста и ясна. За то, что просто был рядом — это давало силы идти дальше.
+
+*Вы — моя бесконечность в конечной Вселенной.*
+
+### 🇬🇧
+> *"Without them, this proof would simply not exist."*
+
+- ❤️ **To my wife Yulia** — for patience when I disappeared into formulas until dawn. For believing in me even when I doubted myself. For creating the comfort and silence in which ideas were born. You are my most important co-author, even if your name isn't in the equations.
+- 🌟 **To my son Egor** — for "killer questions" that made me look at problems from a new angle. For reminding me with his childlike "But why?" that truth must be simple and clear. For just being there — that gave me strength to keep going.
+
+*You are my infinity in a finite Universe.*
+
+---
+
 ## 🔮 Случайное совпадение | A Strange Coincidence
 
 📅 **Фиксация даты создания | Date of Creation Fixation**  
