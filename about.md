@@ -235,6 +235,58 @@ If you find an error, improve the model, or just want to discuss — open an Iss
 
 ---
 
+## ⚡ Позиция автора | Author's Stance
+
+### 🇷🇺
+> *«Математика расставила всё на свои места. Она — царица наук.»*
+
+Я не буду отвечать на вопросы рецензентов, которые:
+- ❌ Требуют «упростить» доказательство, не вникая в суть
+- ❌ Просят «адаптировать под формат», убивая логику
+- ❌ Задают вопросы, ответы на которые уже есть в коде
+- ❌ Тратят время на бюрократию вместо проверки математики
+
+**Почему?**
+- ⏱️ Время — невосполнимый ресурс. Я трачу его на уроки, на детей, на новые идеи — а не на бесконечные раунды «а почему вы не сделали вот так».
+- 🔢 Математика не нуждается в защите. Если формула верна — она верна. Если доказательство стройно — оно работает. Остальное — шум.
+- 🧮 Математика — царица наук. Она не просит разрешения быть истинной. Она просто есть.
+
+**Мой подход:**
+- ✅ Код открыт — проверяйте, запускайте, тестируйте
+- ✅ Формулы ясны — выводите, перепроверяйте, развивайте
+- ✅ Логика прозрачна — следуйте ей, находите ошибки, предлагайте улучшения
+- ❌ Но я не буду вести бесконечные диалоги с теми, кто не готов читать, думать и считать
+
+Если вы нашли ошибку — создавайте Issue. Если улучшили модель — делайте Pull Request. Если просто хотите обсудить — пишите кратко и по делу.
+
+Всё остальное — пусть решает математика.
+
+### 🇬🇧
+> *"Mathematics has put everything in its place. It is the queen of sciences."*
+
+I will not respond to reviewers' questions that:
+- ❌ Ask to "simplify" the proof without understanding its essence
+- ❌ Request to "adapt to format" while killing the logic
+- ❌ Ask questions already answered in the code
+- ❌ Waste time on bureaucracy instead of verifying the mathematics
+
+**Why?**
+- ⏱️ Time is an irreplaceable resource. I spend it on lessons, on children, on new ideas — not on endless rounds of "why didn't you do it this way".
+- 🔢 Mathematics does not need defense. If a formula is correct — it is correct. If a proof is sound — it works. The rest is noise.
+- 🧮 Mathematics is the queen of sciences. It does not ask for permission to be true. It simply is.
+
+**My approach:**
+- ✅ Code is open — check it, run it, test it
+- ✅ Formulas are clear — derive them, verify them, develop them
+- ✅ Logic is transparent — follow it, find errors, suggest improvements
+- ❌ But I will not engage in endless dialogues with those unwilling to read, think, and calculate
+
+If you found an error — open an Issue. If you improved the model — make a Pull Request. If you just want to discuss — write briefly and to the point.
+
+Everything else — let mathematics decide.
+
+---
+
 ## 🗺️ От Кобрина — к космосу | From Kobrin to the Cosmos
 
 | 🇷🇺 | 🇬🇧 |
