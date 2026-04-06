@@ -255,7 +255,6 @@ If you find an error, improve the model, or just want to discuss — open an Iss
 | 🇷🇺 | 🇬🇧 |
 |-----|-----|
 | 📍 Кобрин, Беларусь | 📍 Kobrin, Belarus |
-| 📧 [Sch6@kobrin.edu.by](mailto:Sch6@kobrin.edu.by) | 📧 [Sch6@kobrin.edu.by](mailto:Sch6@kobrin.edu.by) |
 | 📷 [@kobrintour.by](https://instagram.com/kobrintour.by) | 📷 [@kobrintour.by](https://instagram.com/kobrintour.by) |
 | 🌐 [kobrintour.by](https://kobrintour.by) | 🌐 [kobrintour.by](https://kobrintour.by) |
 | 🔗 [GitHub: Viktar-Pi](https://github.com/Viktar-Pi) | 🔗 [GitHub: Viktar-Pi](https://github.com/Viktar-Pi) |
