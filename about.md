@@ -118,3 +118,119 @@ This repository contains the mathematical foundation proving that:
 ---
 
 ## 🗝️ Ключевые идеи | Key Concepts
+
+🔹 Зарисский родился в Кобрине (1899) → его топология → структура Вселенной
+🔹 Плоский тор + иррациональный сдвиг = конечность без границ
+🔹 π, √2, √3 — геометрические инварианты эволюции космоса
+🔹 Додекаэдр — ключ к визуализации многомерной связности
+🔹 Ленинградская школа теории чисел + кобринская интуиция = прорыв
+🔹 Обычная школа + обычные дети = честная наука без догм
+🔹 Открытый код + открытый доступ = наука для человечества
+🔹 Zariski was born in Kobrin (1899) → his topology → structure of the Universe
+🔹 Flat torus + irrational shift = finiteness without boundaries
+🔹 π, √2, √3 — geometric invariants of cosmic evolution
+🔹 Dodecahedron — key to visualizing multidimensional connectivity
+🔹 Leningrad number theory school + Kobrin intuition = breakthrough
+🔹 Ordinary school + ordinary kids = honest science without dogma
+🔹 Open code + open access = science for humanity
+
+
+---
+
+## 🌍 Открытая наука | Open Science
+
+### 🇷🇺
+> **Наука должна быть открыта и бесплатна.**
+
+Этот проект выложен на GitHub, а не в платном журнале, потому что:
+
+- 🔓 Знания принадлежат человечеству, а не издательствам
+- 👨‍🏫 Любой учитель, студент или любознательный школьник из Кобрина должен иметь доступ
+- 💬 Рецензирование — это диалог, а не фильтр
+- 🏫 Доказательство, рождённое в обычной школе, должно быть доступно каждому
+- 🌐 Границы не должны ограничивать распространение истины
+
+Если вы нашли ошибку, улучшили модель или просто хотите обсудить — создавайте Issue, пишите, предлагайте. Это не «закрытая публикация». Это живой документ. Наука — это процесс, а не продукт.
+
+### 🇬🇧
+> **Science must be open and free.**
+
+This project is hosted on GitHub, not behind a paywall, because:
+
+- 🔓 Knowledge belongs to humanity, not to publishers
+- 👨‍🏫 Any teacher, student, or curious schoolkid from Kobrin should have access
+- 💬 Peer review is a dialogue, not a gate
+- 🏫 A proof born in an ordinary school should be accessible to everyone
+- 🌐 Borders should not limit the spread of truth
+
+If you find an error, improve the model, or just want to discuss — open an Issue, write, suggest. This is not a "closed publication". This is a living document. Science is a process, not a product.
+
+---
+
+## 🗺️ От Кобрина — к космосу | From Kobrin to the Cosmos
+
+| 🇷🇺 | 🇬🇧 |
+|-----|-----|
+| 📸 @kobrintour.by — 900K+ подписчиков | 📸 @kobrintour.by — 900K+ followers worldwide |
+| 🏛️ 7 000+ оцифрованных исторических фото | 🏛️ 7,000+ digitized historical photos |
+| 🎥 3D-туры по Кобрину | 🎥 3D virtual tours of Kobrin |
+| 🤖 ИИ-реконструкции утраченного наследия | 🤖 AI reconstruction of lost heritage |
+
+**Миссия | Mission:**  
+🇷🇺 *Если обычный учитель из обычной школы в маленьком Кобрине смог собрать доказательство конечности Вселенной — представьте, на что способны вы.*  
+🇬🇧 *If an ordinary teacher from an ordinary school in a small town like Kobrin could assemble a proof of the finite Universe — imagine what you can do.*
+
+---
+
+## 📫 Контакты | Connect
+
+| 🇷🇺 | 🇬🇧 |
+|-----|-----|
+| 📍 Кобрин, Беларусь | 📍 Kobrin, Belarus |
+| 📧 Sch6@kobrin.edu.by | 📧 Sch6@kobrin.edu.by |
+| 📷 [@kobrintour.by](https://www.instagram.com/kobrintour.by/) | 📷 [@kobrintour.by](https://www.instagram.com/kobrintour.by/) |
+| 🌐 [kobrintour.by](https://kobrintour.by) | 🌐 [kobrintour.by](https://kobrintour.by) |
+| 🔗 [GitHub: Viktar-Pi](https://github.com/Viktar-Pi) | 🔗 [GitHub: Viktar-Pi](https://github.com/Viktar-Pi) |
+
+---
+
+## 💬 Цитата | Quote
+
+> 🇷🇺 *«Все знают про Несвиж и Мир. А как же наш Кобрин? Отсюда Зарисский изменил математику. Отсюда, с подсказки отца — ленинградского математика, работая в обычной школе с обычными детьми, я собрал все куски воедино и доказал, что Вселенная конечна. Приезжайте — нам есть что показать и о чём поговорить».*  
+>  
+> 🇬🇧 *"Everyone knows about Nesvizh and Mir. But what about our Kobrin? From here, Zariski changed mathematics. From here, with a hint from my father — a Leningrad mathematician — working in an ordinary school with ordinary children, I put all the pieces together and proved the Universe is finite. Come visit — we have something to show and something to talk about."*
+
+---
+
+## 📜 Лицензия | License
+🇷🇺 Эта работа посвящена:
+• памяти Оскара Зарисского (1899–1986),
+• ленинградской школе теории чисел,
+• обычным учителям и обычным детям,
+• и всем, кто верит, что великие открытия могут приходить из маленьких городов.
+🇬🇧 This work is dedicated to:
+• the memory of Oscar Zariski (1899–1986),
+• the Leningrad school of number theory,
+• ordinary teachers and ordinary children,
+• and everyone who believes that great discoveries can come from small towns.
+─────────────────────────────────────────────
+MIT License
+Copyright (c) 2026 Viktar Lohvinovich
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+─────────────────────────────────────────────
+🇷🇺 Используйте, изучайте, развивайте. Просто укажите автора и сохраните дух открытой науки.
+🇬🇧 Use, study, improve. Just credit the author and keep the spirit of open science.
