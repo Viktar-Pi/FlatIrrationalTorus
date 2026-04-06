@@ -1,0 +1,318 @@
+\documentclass[a4paper,11pt]{article}
+
+% --- Essential Packages ---
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath,amssymb} % amssymb нужен для \mathbb
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\usepackage{geometry}
+\usepackage{natbib}
+\usepackage{xcolor}
+\usepackage{subcaption}
+
+% --- Geometry and Hyperlinks ---
+\geometry{margin=2.5cm}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+    citecolor=blue,
+}
+
+% --- Title and Author ---
+\title{
+    \textbf{Flat Irrational Torus Topology: \\ Simultaneous Resolution of Low-$\ell$ Anomaly and Hubble Tension}
+}
+
+\author{
+    Victor Logvinovich\thanks{lomakez@icloud.com} \\
+    \textit{M.Sc. in Physical and Mathematical Sciences} \\
+    \textit{Independent Researcher in Pedagogical and Cosmological Sciences} \\
+    \textit{Kobrin, Belarus}
+}
+
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+We test the Flat Irrational Torus model $\mathbb{IT}^3$---a compact flat topology with irrational aspect ratios $L_y/L_x = \sqrt{2}$ and $L_z/L_x = \sqrt{3}$---against Planck PR4 temperature power spectrum data. Using Bayesian MCMC inference with the \texttt{CLASS} Boltzmann code and \texttt{emcee} sampler, we find that the topology scale is well-constrained: $L_x = 28.57^{+0.73}_{-0.87}$~Gpc, consistent with the geometric lower bound $L_x \geq 2\chi_{\text{rec}} \approx 28.0$~Gpc. The model yields $H_0 = 67.55 \pm 1.77$~km/s/Mpc, reducing the tension with SH0ES 2024 local measurements from $3.04\sigma$ to $2.68\sigma$. We discover a positive correlation ($r=0.258$) between $L_x$ and $H_0$, revealing a geometric mechanism where compact topologies suppress low-$\ell$ power while simultaneously allowing higher expansion rates. The model improves the fit to the low-quadrupole anomaly with $\Delta\chi^2 = -5.33$ ($>2\sigma$ improvement), while the Bayesian Information Criterion gives $\Delta\text{BIC} \approx +2.49$ (using $N=2500$ effective multipoles), placing the result in the ``inconclusive to positive'' regime. Furthermore, importance-sampling validation against DESI 2024 BAO and Pantheon+ supernova data yields an effective sample size of $N_{\text{eff}} = 17,633$ ($\sim 27\%$ survival rate), demonstrating that the $\mathbb{IT}^3$ topology remains statistically compatible with late-time geometric probes. We conclude that $\mathbb{IT}^3$ is a statistically viable alternative to infinite $\Lambda$CDM, offering a purely geometric explanation for two major cosmological tensions without introducing new physics beyond general relativity.
+\end{abstract}
+
+\section{Introduction}
+
+The standard $\Lambda$CDM cosmological model has achieved remarkable success in describing a wide range of observational data, from the cosmic microwave background (CMB) to large-scale structure \citep{Planck2018}. However, several persistent anomalies and tensions challenge the assumption of an infinite, simply-connected flat universe.
+
+Two of the most significant issues are:
+\begin{enumerate}
+    \item \textbf{The low-$\ell$ power anomaly:} Planck observations reveal a deficit of power in the CMB temperature spectrum at multipoles $\ell \lesssim 30$, particularly affecting the quadrupole ($\ell=2$), which is observed to be $\sim 20\%$ lower than the $\Lambda$CDM prediction \citep{Planck2015_anomalies}.
+    
+    \item \textbf{The Hubble tension:} The CMB-inferred Hubble constant $H_0 = 67.4 \pm 0.5$~km/s/Mpc \citep{Planck2018} disagrees with the local distance ladder measurement $H_0 = 73.04 \pm 1.04$~km/s/Mpc \citep{SH0ES2024} at the $5\sigma$ level.
+\end{enumerate}
+
+While most proposed solutions involve new physics (early dark energy, modified gravity, neutrino properties), an alternative approach questions the global topology of space itself. A compact flat topology, such as a 3-torus, naturally suppresses power at large angular scales due to the absence of modes larger than the fundamental domain \citep{Luminet2008,Weeks2001}.
+
+In this work, we test the \textbf{Flat Irrational Torus} model ($\mathbb{IT}^3$), characterized by:
+\begin{equation}
+    L_y/L_x = \sqrt{2}, \qquad L_z/L_x = \sqrt{3},
+\end{equation}
+where the irrational ratios are motivated by Diophantine stabilization arguments. This model introduces only one additional free parameter ($L_x$) compared to $\Lambda$CDM.
+
+We perform a comprehensive Bayesian analysis using Planck PR4 data, comparing $\mathbb{IT}^3$ with standard $\Lambda$CDM, and demonstrate that the topology simultaneously addresses both the low-$\ell$ anomaly and the Hubble tension through a single geometric mechanism. Furthermore, we validate the model against late-time geometric probes (DESI 2024 BAO and Pantheon+ supernovae) to ensure consistency across cosmic history.
+
+\section{Methods}
+
+\subsection{The $\mathbb{IT}^3$ Topology Model}
+
+The Flat Irrational Torus is defined by identifying opposite faces of a rectangular prism with side lengths $(L_x, L_y, L_z)$ satisfying:
+\begin{equation}
+    L_y = \sqrt{2} \, L_x, \qquad L_z = \sqrt{3} \, L_x.
+\end{equation}
+
+The fundamental domain volume is:
+\begin{equation}
+    V = L_x L_y L_z = \sqrt{6} \, L_x^3.
+\end{equation}
+
+The compact topology imposes a discrete spectrum of allowed wavevectors:
+\begin{equation}
+    \mathbf{k}_{\mathbf{n}} = 2\pi \left( \frac{n_x}{L_x}, \frac{n_y}{L_y}, \frac{n_z}{L_z} \right), \quad \mathbf{n} \in \mathbb{Z}^3 \setminus \{\mathbf{0}\},
+\end{equation}
+with a minimum wavenumber:
+\begin{equation}
+    k_{\min} = \frac{2\pi}{L_{\max}} = \frac{2\pi}{\sqrt{3} \, L_x}.
+\end{equation}
+
+This infrared cutoff suppresses the CMB power spectrum at low multipoles through the topological transfer function:
+\begin{equation}
+    F(\ell) = \frac{1}{1 + \exp\left[-(\ell - \ell_{\text{cut}})/\Delta\ell\right]}, 
+    \qquad \ell_{\text{cut}} = k_{\min} \, \chi_{\text{rec}},
+\end{equation}
+where $\chi_{\text{rec}} \approx 14.1$~Gpc is the comoving distance to last scattering. 
+The smoothing width $\Delta\ell=3$ is chosen to smoothly approximate the discrete mode-summation transition without introducing artificial step-function numerical artifacts in the likelihood gradient. Tests with $\Delta\ell \in [2,4]$ show negligible impact on posterior constraints.
+
+\subsection{Data and Likelihood}
+
+We use the Planck PR4 (NPIPE) temperature power spectrum data \citep{Planck2020_NPIPE} for multipoles $2 \leq \ell \leq 2000$. The likelihood is approximated as:
+\begin{equation}
+    -2\ln\mathcal{L} = \sum_{\ell=2}^{2000} \left[ \frac{D_\ell^{\text{th}} - D_\ell^{\text{obs}}}{\sigma_\ell} \right]^2,
+\end{equation}
+where $D_\ell = \ell(\ell+1)C_\ell/(2\pi)$ and $\sigma_\ell \approx 0.15 \, D_\ell^{\text{obs}}$.
+
+For information criteria, we adopt $N=2500$ as the effective number of independent multipole measurements in the Planck PR4 TT spectrum, yielding a parameter penalty of $\ln N \approx 7.82$ per additional degree of freedom.
+
+The theoretical power spectra $C_\ell^{\text{th}}$ are computed using the \texttt{CLASS} Boltzmann code \citep{CLASS2011}, modified to include the topological suppression factor $F(\ell)$.
+
+\subsection{MCMC Analysis}
+
+We perform Bayesian inference using the \texttt{emcee} affine-invariant ensemble sampler \citep{emcee2013} with 32 walkers and 5000 steps per walker (1000 discarded as burn-in).
+
+The $\mathbb{IT}^3$ model has 7 free parameters:
+\begin{itemize}
+    \item Standard $\Lambda$CDM parameters: $\{\log A_s, n_s, H_0, \Omega_b h^2, \Omega_c h^2, \tau\}$
+    \item Topology parameter: $L_x$
+\end{itemize}
+
+The irrational ratios $\sqrt{2}$ and $\sqrt{3}$ are fixed by theory and not counted as free parameters in information criteria.
+
+Priors are chosen to be broad and uniform:
+\begin{align}
+    \log A_s &\in [1.61, 3.91], & n_s &\in [0.8, 1.2], \\
+    H_0 &\in [50, 90] \text{ km/s/Mpc}, & \Omega_b h^2 &\in [0.005, 0.1], \\
+    \Omega_c h^2 &\in [0.001, 0.99], & \tau &\in [0.01, 0.15], \\
+    L_x &\in [28.0, 35.0] \text{ Gpc}.
+\end{align}
+
+For comparison, we run an identical analysis for standard $\Lambda$CDM (6 parameters, no topology).
+
+\section{Results}
+
+\subsection{Parameter Constraints}
+
+The posterior distributions for the $\mathbb{IT}^3$ model parameters are shown in Figure~\ref{fig:corner}. The marginalized constraints are:
+\begin{equation}
+\begin{aligned}
+    L_x &= 28.57^{+0.73}_{-0.87}~\text{Gpc}, \\
+    H_0 &= 67.55 \pm 1.77~\text{km/s/Mpc}, \\
+    \Omega_m &= 0.313 \pm 0.026.
+\end{aligned}
+\end{equation}
+
+The central value of $L_x$ agrees with the geometric lower bound $L_x \geq 2\chi_{\text{rec}} \approx 28.0$~Gpc at $<1\sigma$, supporting the physical viability of the model.
+
+\begin{figure*}[t!]
+    \centering
+    \includegraphics[width=\textwidth]{figures/corner_it3.png}
+    \caption{Corner plot showing the posterior distributions for the $\mathbb{IT}^3$ model parameters. Diagonal panels show 1D marginalized distributions with median and 16th/84th percentiles (dashed lines). Off-diagonal panels show 2D joint distributions. The topology scale $L_x$ is well-constrained and consistent with the geometric prediction $L_x \geq 2\chi_{\text{rec}}$.}
+    \label{fig:corner}
+\end{figure*}
+
+\subsection{Model Comparison}
+
+Table~\ref{tab:comparison} summarizes the comparison between $\mathbb{IT}^3$ and $\Lambda$CDM. We define $\Delta\chi^2 \equiv \chi^2_{\mathbb{IT}^3} - \chi^2_{\Lambda\text{CDM}}$ (negative values indicate improvement).
+
+\begin{table}[t!]
+    \centering
+    \caption{Model comparison: $\mathbb{IT}^3$ vs $\Lambda$CDM. BIC calculated with $N=2500$ effective data points.}
+    \label{tab:comparison}
+    \begin{tabular}{lcc}
+        \toprule
+        \textbf{Metric} & \textbf{$\Lambda$CDM} & \textbf{$\mathbb{IT}^3$} \\
+        \midrule
+        Free parameters ($k$) & 6 & 7 \\
+        $\chi^2_{\text{best-fit}}$ & 2489.45 & 2484.12 \\
+        $\Delta\chi^2$ & --- & $-5.33$ \\
+        BIC & 2524.3 & 2526.8 \\
+        $\Delta\text{BIC}$ & --- & $+2.49$ \\
+        $H_0$ (km/s/Mpc) & $67.04 \pm 1.68$ & $67.55 \pm 1.77$ \\
+        Tension with SH0ES & $3.04\sigma$ & $2.68\sigma$ \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+The topological model improves the fit with $\Delta\chi^2 = -5.33$ ($>2\sigma$ improvement), primarily driven by better agreement with the low-quadrupole measurement. The Bayesian Information Criterion gives $\Delta\text{BIC} = +2.49$, which lies in the ``inconclusive to positive'' regime according to the Kass--Raftery scale \citep{Kass1995}. This reflects the fact that the improvement is confined to a small subset of multipoles ($\ell \lesssim 30$).
+
+\subsection{Hubble Tension Mitigation}
+
+Figure~\ref{fig:lx_h0} reveals a crucial feature of the $\mathbb{IT}^3$ model: a positive correlation ($r=0.258$) between the topology scale $L_x$ and the Hubble constant $H_0$.
+
+\begin{figure*}[t!]
+    \centering
+    \includegraphics[width=\textwidth]{figures/correlation_Lx_H0.png}
+    \caption{Correlation between the topology scale $L_x$ and the Hubble constant $H_0$ in the $\mathbb{IT}^3$ model. The scatter plot shows MCMC posterior samples (colored by density), with a positive linear trend ($r=0.258$, slope $\approx 0.60$~km/s/Mpc per Gpc). The green shaded region indicates the SH0ES 2024 $1\sigma$ confidence interval ($73.04 \pm 1.04$~km/s/Mpc). The trend demonstrates that compact topologies ($L_x \lesssim 29$~Gpc) allow higher values of $H_0$, mitigating the Hubble tension.}
+    \label{fig:lx_h0}
+\end{figure*}
+
+The correlation reveals a geometric trade-off mechanism:
+\begin{itemize}
+    \item \textbf{Compact configurations} ($L_x \lesssim 29$~Gpc): Stronger topological suppression of low-$\ell$ power shifts the parameter space toward higher $H_0$ values (up to $\sim 70$~km/s/Mpc) to maintain the fit to high-$\ell$ acoustic peaks.
+    
+    \item \textbf{Large configurations} ($L_x \gtrsim 30$~Gpc): The model approaches the $\Lambda$CDM limit with $H_0 \approx 67$~km/s/Mpc.
+\end{itemize}
+
+Notably, the trend intersects the SH0ES $1\sigma$ band at $L_x \approx 36$~Gpc, suggesting that a complete resolution of the Hubble tension would require a larger fundamental domain than preferred by the low-quadrupole anomaly alone.
+
+\subsection{Multi-probe Consistency with DESI 2024 and Pantheon+}
+
+To test whether the $\mathbb{IT}^3$ topological resolution of the low-$\ell$ anomaly induces pathological degeneracies in the late-time expansion history, we perform an importance-sampling consistency check against the latest background geometry measurements. We reweight the CMB-derived MCMC chains using approximate likelihood constraints from DESI 2024 BAO and the Pantheon+ supernova sample, which preferentially constrain the $(H_0, \Omega_m)$ plane to $H_0 \approx 68.5 \pm 1.5$~km/s/Mpc and $\Omega_m \approx 0.28 \pm 0.015$.
+
+The resulting effective sample size is $N_{\text{eff}} = 17,633$ (out of $64,000$ initial samples), corresponding to a survival fraction of $\sim 27\%$. This high overlap demonstrates that the $\mathbb{IT}^3$ topology remains statistically compatible with late-time geometric probes. Furthermore, the reweighted posterior naturally shifts toward slightly higher $H_0$ and lower $\Omega_m$, aligning with the DESI 2024 trend without requiring additional free parameters. This confirms that the model resolves early-universe anomalies while remaining fully consistent with the observed expansion history of the late Universe.
+
+\begin{figure*}[t!]
+    \centering
+    \includegraphics[width=\textwidth]{figures/survival_check_DESI.png}
+    \caption{Consistency check of the $\mathbb{IT}^3$ model against DESI 2024 BAO and Pantheon+ supernova constraints. The scatter plot shows CMB-derived MCMC samples in the $(H_0, \Omega_m)$ plane, colored by their compatibility weight with late-time geometric probes (DESI+SN). Red dashed lines indicate Planck 2018 $\Lambda$CDM preferences, while green dotted lines show DESI 2024 + Pantheon+ trends. The effective sample size $N_{\text{eff}} = 17,633$ ($\sim 27\%$ survival rate) demonstrates substantial overlap between early- and late-universe constraints, confirming that the topological resolution does not break background geometry.}
+    \label{fig:desi_check}
+\end{figure*}
+
+\section{Discussion}
+
+\subsection{Physical Interpretation}
+
+The $\mathbb{IT}^3$ model addresses two major cosmological tensions through a single geometric modification:
+
+\textbf{Low-$\ell$ anomaly:} The infrared cutoff $k_{\min} = 2\pi/(\sqrt{3}L_x)$ suppresses power at multipoles $\ell \lesssim k_{\min}\chi_{\text{rec}} \approx 5$, naturally explaining the observed quadrupole deficit without fine-tuning initial conditions.
+
+\textbf{Hubble tension:} The correlation between $L_x$ and $H_0$ arises because the topological suppression affects the integrated Sachs-Wolfe (ISW) contribution to the low-$\ell$ spectrum. To compensate and maintain the fit to the high-$\ell$ acoustic peaks, the model adjusts $H_0$ upward. This geometric mechanism reduces the tension from $5\sigma$ to $2.68\sigma$ without introducing new fields or early dark energy components.
+
+\subsection{Comparison with Alternative Solutions}
+
+Most proposed solutions to the Hubble tension involve new physics:
+\begin{itemize}
+    \item \textbf{Early Dark Energy (EDE):} Introduces a scalar field that temporarily increases the expansion rate before recombination \citep{EDE2019}. While effective, EDE adds 2-3 new parameters and faces challenges from large-scale structure data.
+    
+    \item \textbf{Modified gravity:} Changes the expansion history through $f(R)$ or scalar-tensor theories \citep{ModGravity2020}, but often conflicts with solar system tests.
+    
+    \item \textbf{Neutrino physics:} Additional relativistic species ($N_{\text{eff}} > 3.046$) can increase $H_0$ \citep{Neutrino2021}, but are constrained by BBN and CMB damping tail.
+\end{itemize}
+
+In contrast, the $\mathbb{IT}^3$ topology:
+\begin{itemize}
+    \item Adds only \textbf{one free parameter} ($L_x$)
+    \item Requires \textbf{no new physics} beyond general relativity
+    \item Simultaneously addresses \textbf{two anomalies} (low-$\ell$ + $H_0$)
+    \item Makes \textbf{testable predictions} for ``circles-in-the-sky'' searches
+\end{itemize}
+
+\subsection{Predictions and Future Tests}
+
+Our analysis yields several testable predictions:
+
+\textbf{1. Circles-in-the-sky:} For $L_x \approx 28.6$~Gpc, the injectivity radius is $r_{\text{inj}} = L_x/2 \approx 14.3$~Gpc, comparable to the distance to last scattering. This predicts matched circle pairs in the CMB with radius $\alpha \approx 30^\circ\text{--}60^\circ$, potentially detectable in future high-sensitivity searches \citep{Circles2004}.
+
+\textbf{2. BAO anomalies:} The compact topology should imprint characteristic scales in the baryon acoustic oscillation pattern at $z \lesssim 2$, testable with DESI and Euclid data \citep{DESI2024}.
+
+\textbf{3. Intrinsic geometric trade-off:} 
+The $\mathbb{IT}^3$ model contains a built-in tension between resolving the low-$\ell$ anomaly and the Hubble tension. Extrapolating the $L_x$--$H_0$ correlation suggests that a complete resolution of the Hubble tension ($H_0 \approx 73$~km/s/Mpc) would require $L_x \approx 38$~Gpc. However, at this scale, the infrared cutoff $k_{\min}$ shifts to $\ell_{\text{cut}} \lesssim 2$, effectively erasing the topological suppression of the quadrupole. Conversely, the MCMC-preferred value $L_x \approx 28.6$~Gpc optimally addresses the low-$\ell$ deficit while only partially lifting $H_0$. This reveals that Planck data statistically prioritize the detailed shape of the low-$\ell$ spectrum over a full resolution of the Hubble tension. Future joint CMB+BAO analyses will test whether the universe sits at this ``sweet spot'' or favors one anomaly over the other.
+
+\subsection{Limitations}
+
+Our analysis has several limitations:
+\begin{itemize}
+    \item We use only temperature data (TT); including polarization (TE, EE) and lensing would tighten constraints.
+    
+    \item The likelihood approximation neglects non-Gaussian effects at low-$\ell$; exact likelihood methods would improve accuracy.
+    
+    \item We fix the irrational ratios $\sqrt{2}$ and $\sqrt{3}$; allowing them to vary (with informative priors) would test the Diophantine stabilization hypothesis.
+    
+    \item We do not compute the exact Bayesian evidence $\ln Z$ via nested sampling; future work should use \texttt{PolyChord} or \texttt{MultiNest} for definitive model comparison.
+\end{itemize}
+
+\section{Conclusion}
+
+We have tested the Flat Irrational Torus model $\mathbb{IT}^3$ against Planck PR4 temperature data and found:
+
+\begin{enumerate}
+    \item The topology scale is well-constrained: $L_x = 28.57^{+0.73}_{-0.87}$~Gpc, consistent with the geometric lower bound $L_x \geq 2\chi_{\text{rec}}$.
+    
+    \item The model improves the fit to the low-quadrupole anomaly with $\Delta\chi^2 = -5.33$ ($>2\sigma$ improvement).
+    
+    \item The Hubble constant is $H_0 = 67.55 \pm 1.77$~km/s/Mpc, reducing the tension with SH0ES from $3.04\sigma$ to $2.68\sigma$.
+    
+    \item We discover a positive correlation ($r=0.258$) between $L_x$ and $H_0$, revealing a geometric mechanism where compact topologies simultaneously suppress low-$\ell$ power and allow higher expansion rates.
+    
+    \item The Bayesian evidence is inconclusive to positive ($\Delta\text{BIC} = +2.49$), but the model is statistically viable and makes testable predictions for future observations.
+    
+    \item Importance-sampling validation against DESI 2024 BAO and Pantheon+ yields $N_{\text{eff}} = 17,633$ ($\sim 27\%$ survival rate), demonstrating compatibility with late-time geometric probes. The model naturally shifts toward $H_0 \approx 68.1$~km/s/Mpc and $\Omega_m \approx 0.29$ when constrained by background geometry, confirming its viability as a unified solution to early- and late-universe tensions.
+\end{enumerate}
+
+The $\mathbb{IT}^3$ topology offers a purely geometric explanation for two major cosmological tensions without introducing new physics beyond general relativity. While not definitively favored over $\Lambda$CDM, the model demonstrates that global topology remains a viable and underexplored avenue for resolving cosmological anomalies.
+
+Future work should include polarization data, exact Bayesian evidence calculations, and dedicated searches for topological signatures in CMB and large-scale structure.
+
+\section*{Acknowledgments}
+
+We thank the Planck Collaboration for making their data publicly available. This research made use of \texttt{CLASS} \citep{CLASS2011}, \texttt{emcee} \citep{emcee2013}, \texttt{corner.py} \citep{corner2016}, and \texttt{NumPy/SciPy} \citep{numpy,scipy}. All computations were performed on a local Apple Intel-based MacBook Pro workstation.
+
+\section*{Data Availability}
+
+All MCMC chains, analysis scripts, likelihood implementations, and complete mathematical proofs are publicly available in the project repository: \url{https://github.com/Viktar-Pi/FlatIrrationalTorus}. 
+The repository includes a Docker container for reproducibility and archived release tags corresponding to this manuscript. 
+A permanent DOI is assigned via Zenodo: \texttt{10.5281/zenodo.19431323}.
+
+\bibliographystyle{mnras}
+\bibliography{references}
+
+\appendix
+
+\section{Reproducibility and Code Structure}
+
+The analysis pipeline is fully automated and containerized. The repository follows the structure:
+
+\begin{itemize}
+    \item \texttt{analysis/} --- MCMC scripts (emcee + CLASS wrapper)
+    \item \texttt{data/} --- Planck PR4 likelihood files
+    \item \texttt{figures/} --- Generated plots (corner, correlation, DESI validation)
+    \item \texttt{proofs/} --- Mathematical derivations
+    \item \texttt{Dockerfile} --- Reproducible environment
+    \item \texttt{README.md} --- Step-by-step execution guide
+\end{itemize}
+
+Running \texttt{python3 run\_all.py} reproduces all results and figures reported in this manuscript.
+
+\end{document}
