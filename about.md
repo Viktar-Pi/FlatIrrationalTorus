@@ -151,6 +151,11 @@ Including scholars from scientific circles who couldn't help me register on [arX
 
 ## 🔮 Случайное совпадение | A Strange Coincidence
 
+📅 **Фиксация даты создания | Date of Creation Fixation**  
+🇷🇺 Этот документ зафиксирован по состоянию на **7 апреля 2026 года**. Текст не будет изменяться после публикации — версия сохранена в неизменном виде для независимой проверки синхроничности событий и верификации изложенного.  
+
+This document is fixed as of **April 7, 2026**. The text will not be modified after publication — this version is preserved unchanged for independent verification of event synchronicity and factual accuracy.
+
 ### 🇷🇺
 **6 апреля 2026 года** я отправил статью в американский журнал по физике. Просто продолжил работу: доказательства, формулы, топология. Никакой мистики — только математика.
 
