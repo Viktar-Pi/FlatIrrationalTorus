@@ -3,7 +3,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Python 3.8+](https://img.shields.io/badge/Python-3.8%2B-blue)](https://python.org)
 [![Planck PR4](https://img.shields.io/badge/Data-Planck%20PR4-orange)](https://pla.esac.esa.int)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19431323.svg)](https://doi.org/10.5281/zenodo.19431323)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19440498.svg)](https://doi.org/10.5281/zenodo.19440498)
 
 > **Manuscript submitted to Physical Review Letters** (April 2026)  
 > *Tracking ID: es2026apr06_647*
@@ -11,7 +11,6 @@
 ## 🎯 Overview
 
 Complete computational framework for the **Flat Irrational Torus (IT³)** model — a compact flat topology providing geometric solutions to the low-ℓ CMB anomaly and Hubble tension without new physics beyond General Relativity.
-
 
 ### Key Results (Planck PR4 TT)
 
@@ -25,6 +24,7 @@ Complete computational framework for the **Flat Irrational Torus (IT³)** model 
 ## 🚀 Quick Start
 
 ### Option 1: Docker (Recommended)
+
 ```bash
 git clone https://github.com/Viktar-Pi/FlatIrrationalTorus.git
 cd FlatIrrationalTorus
@@ -33,6 +33,7 @@ docker run -v $(pwd)/results:/app/results it3-analysis python3 analysis/run_all.
 ```
 
 ### Option 2: Native Python
+
 ```bash
 pip install -r requirements.txt
 python3 scripts/download_planck_data.py
@@ -40,39 +41,39 @@ python3 analysis/run_all.py
 ```
 
 ## 📁 Repository Structure
-```bash
-FlatIrrationalTorus/
-├── analysis/ # MCMC pipeline and likelihood
-│ ├── run_all.py
-│ ├── likelihood_it3.py
-│ ├── mcmc_sampler.py
-│ └── utils.py
-├── scripts/ # Plotting and utilities
-│ ├── plot_correlation.py
-│ ├── plot_corner.py
-│ ├── check_survival.py
-│ └── extract_stats.py
-├── data/ # MCMC chains
-│ ├── samples_it3.pkl
-│ └── samples_lcdm.pkl
-├── figures/ # Publication figures
-│ ├── corner_it3.png
-│ ├── correlation_Lx_H0.png
-│ └── survival_check_DESI.png
-├── paper/ # LaTeX manuscript
-│ ├── main.tex
-│ └── references.bib
-├── notebooks/ # Jupyter explorations
-├── docker/ # Reproducible environment
-│ ├── Dockerfile
-│ └── requirements.txt
-├── tests/ # Unit tests
-├── docs/ # Documentation
-├── LICENSE # MIT License
-├── CITATION.cff # Citation metadata
-└── README.md # This file
-```
 
+```
+FlatIrrationalTorus/
+├── analysis/           # MCMC pipeline and likelihood
+│   ├── run_all.py
+│   ├── likelihood_it3.py
+│   ├── mcmc_sampler.py
+│   └── utils.py
+├── scripts/            # Plotting and utilities
+│   ├── plot_correlation.py
+│   ├── plot_corner.py
+│   ├── check_survival.py
+│   └── extract_stats.py
+├── data/               # MCMC chains
+│   ├── samples_it3.pkl
+│   └── samples_lcdm.pkl
+├── figures/            # Publication figures
+│   ├── corner_it3.png
+│   ├── correlation_Lx_H0.png
+│   └── survival_check_DESI.png
+├── paper/              # LaTeX manuscript
+│   ├── main.tex
+│   └── references.bib
+├── notebooks/          # Jupyter explorations
+├── docker/             # Reproducible environment
+│   ├── Dockerfile
+│   └── requirements.txt
+├── tests/              # Unit tests
+├── docs/               # Documentation
+├── LICENSE             # MIT License
+├── CITATION.cff        # Citation metadata
+└── README.md           # This file
+```
 
 ## 🔬 Methodology
 
@@ -80,29 +81,27 @@ FlatIrrationalTorus/
 
 **Inference:** Bayesian MCMC (emcee, 32 walkers, 5000 steps) with modified CLASS Boltzmann code
 
-**Transfer Function:** Topological suppression $F(\ell) = [1 + \exp(-(\ell-\ell_{\text{cut}})/\Delta\ell)]^{-1}$
+**Transfer Function:** Topological suppression F(ℓ) = [1 + exp(-(ℓ-ℓ<sub>cut</sub>)/Δℓ)]⁻¹
 
-**Data:** Planck PR4 (NPIPE) temperature spectrum, $2 \leq \ell \leq 2000$
+**Data:** Planck PR4 (NPIPE) temperature spectrum, 2 ≤ ℓ ≤ 2000
 
-**Convergence:** Gelman-Rubin $\hat{R} < 1.01$ for all parameters
-
+**Convergence:** Gelman-Rubin R̂ < 1.01 for all parameters
 
 ## 📈 Predictions for Future Observations
 
-| Mission | Observable | $\mathbb{IT}^3$ Prediction |
-|---------|-----------|---------------------------|
-| **LiteBIRD** | Low-$\ell$ B-modes | Characteristic oscillations at $\ell \lesssim 10$ |
-| **CMB-S4** | Quadrupole precision | $\Delta C_2/C_2 \sim 5\%$ test |
-| **Euclid/DESI** | BAO at $z > 2$ | Sub-percent deviations in $D_M(z)/r_d$ |
-| **SKA** | 21cm intensity mapping | Anisotropic correlation at scales $\sim L_x$ |
-| **LISA** | Stochastic GW background | Modulations at $f \sim c/L_x$ |
+| Mission | Observable | IT³ Prediction |
+|---------|-----------|----------------|
+| **LiteBIRD** | Low-ℓ B-modes | Characteristic oscillations at ℓ ≲ 10 |
+| **CMB-S4** | Quadrupole precision | ΔC<sub>2</sub>/C<sub>2</sub> ~ 5% test |
+| **Euclid/DESI** | BAO at z > 2 | Sub-percent deviations in D<sub>M</sub>(z)/r<sub>d</sub> |
+| **SKA** | 21cm intensity mapping | Anisotropic correlation at scales ~ L<sub>x</sub> |
+| **LISA** | Stochastic GW background | Modulations at f ~ c/L<sub>x</sub> |
 
 ## 🔗 Resources
 
 - **Mathematical Formalism:** [`docs/mathematical_formalism.pdf`](docs/mathematical_formalism.pdf)
 - **Reproducibility Guide:** [`docs/REPRODUCIBILITY.md`](docs/REPRODUCIBILITY.md)
 - **Falsifiability Checklist:** [`docs/falsifiability_checklist.md`](docs/falsifiability_checklist.md)
-- **API Reference:** [`docs/api.md`](docs/api.md)
 
 ## 🤝 Contributing
 
@@ -141,14 +140,22 @@ If you use this software or results in your research, please cite:
 
 ```bibtex
 @article{Logvinovich2026IT3,
-  title = {Flat Irrational Torus Topology: Simultaneous Resolution of Low-$\ell$ Anomaly and Hubble Tension},
+  title = {Flat Irrational Torus Topology: Simultaneous Resolution of Low-ℓ Anomaly and Hubble Tension},
   author = {Logvinovich, Victor},
   journal = {Physical Review Letters (submitted)},
   year = {2026},
   doi = {10.5281/zenodo.19440498},
   url = {https://github.com/Viktar-Pi/FlatIrrationalTorus}
 }
+```
 
-"The Universe is not only stranger than we imagine, it is stranger than we can imagine."
-— J.B.S. Haldane
-Last updated: April 2026
+### Zenodo Archive
+A permanent, versioned archive of this repository is available at:  
+🔗 [10.5281/zenodo.19440498](https://doi.org/10.5281/zenodo.19440498)
+
+---
+
+> *"The Universe is not only stranger than we imagine, it is stranger than we can imagine."*  
+> — J.B.S. Haldane
+
+*Last updated: April 2026*
