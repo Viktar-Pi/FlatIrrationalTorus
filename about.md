@@ -271,12 +271,14 @@ If you find an error, improve the model, or just want to discuss — open an Iss
 ---
 
 ## 📜 Лицензия | License
+
 🇷🇺 Эта работа посвящена:
 • памяти Оскара Зарисского (1899–1986),
 • ленинградской школе теории чисел,
 • обычным учителям и обычным детям,
 • и всем, кто верит, что великие открытия могут приходить из маленьких городов.
-🇬🇧 This work is dedicated to:
+
+🇬 This work is dedicated to:
 • the memory of Oscar Zariski (1899–1986),
 • the Leningrad school of number theory,
 • ordinary teachers and ordinary children,
@@ -284,18 +286,23 @@ If you find an error, improve the model, or just want to discuss — open an Iss
 
 ---
 
-<div align="center">
+### 🌍 Вселенная конечна. Любопытство — бесконечно.
 
-### 🌍 Вселенная конечна. Любопытство — бесконечно.  
 ### 🌍 The Universe is finite. Curiosity is infinite.
 
-**Сделано с ❤️ в Кобрине, Беларусь 🇧🇾 | Made with ❤️ in Kobrin, Belarus**  
+**Сделано с ❤️ в Кобрине, Беларусь 🇧🇾 | Made with ❤️ in Kobrin, Belarus**
+
 **Обычной школой — к необычным открытиям | From ordinary school to extraordinary discoveries**
 
-[![Кобрин](https://img.shields.io/badge/Кобрин-Основан%20в%201287-red?style=for-the-badge)](https://kobrintour.by)
-[![Belarus](https://img.shields.io/badge/Беларусь-Лучшая%20страна-007732?style=for-the-badge&logo=belarus)](https://belarus.by)
+<div align="center">
 
-
-🗿 **Памятник иррациональному тору в Кобрине — когда?**
+[![КОБРИН](https://img.shields.io/badge/КОБРИН-555555?style=for-the-badge)](https://kobrintour.by)
+[![ОСНОВАН В 1287](https://img.shields.io/badge/ОСНОВАН%20В%201287-E86B4C?style=for-the-badge)](https://kobrintour.by)
+[![БЕЛАРУСЬ](https://img.shields.io/badge/БЕЛАРУСЬ-555555?style=for-the-badge)](https://belarus.by)
+[![ЛУЧШАЯ СТРАНА](https://img.shields.io/badge/ЛУЧШАЯ%20СТРАНА-2E7D32?style=for-the-badge&logo=belarus)](https://belarus.by)
 
 </div>
+
+### 🗿 Памятник иррациональному тору в Кобрине — когда?
+
+---
