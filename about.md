@@ -21,7 +21,7 @@
 Именно здесь, среди обычных уроков, я увидел связь между топологией Зарисского, геометрией додекаэдра, иррациональными числами и космологическими данными. Иногда для прорыва нужно не больше ресурсов — а больше свободы думать.
 
 ### 🇬🇧
-**Viktar Lohvinovich** — independent researcher from Kobrin, Belarus.
+**Victor Logvinovich** — independent researcher from Kobrin, Belarus.
 
 > *"I didn't discover anything new. I simply put all the pieces together."*
 
@@ -38,6 +38,38 @@ It was here, among ordinary lessons, that I saw the connection between Zariski's
 | Магистр физико-математических наук | MSc in Physics & Mathematics |
 | Аспирантура БрГУ им. А.С. Пушкина | Postgraduate studies, BrSU named after A.S. Pushkin |
 | Учитель математики, СШ №6, Кобрин | Mathematics Teacher, Secondary School No. 6, Kobrin |
+
+---
+
+## 🏛️ Университетская база: БрГУ им. А.С. Пушкина | University Foundation: BrSU
+
+### 🇷🇺
+**Они дали базу. Но самое главное — они поддерживали.**
+
+В университете я получил не просто диплом, а научную свободу. Мои преподаватели стали наставниками и коллегами:
+
+*   **Чичурин Александр Вячеславович** — научный руководитель магистратуры. Человек, который открыл мир дифференциальных уравнений.
+*   **Козинский Андрей Андреевич** — научил проектной деятельности: как доводить идею до результата.
+*   **Гринько Елена Петровна** — мой любимый научный руководитель по аспирантуре. Лучший преподаватель методики преподавания математики и теории чисел. Она научила любить этот предмет до глубины души.
+*   **Басик Александр Иванович** — помог войти в сложный мир Функционального анализа.
+*   **Сендер Анна Николаевна** (д.п.н., профессор) — известный учёный в области педагогики и методики. Помогла научиться чётко ставить цель и «резать» задачи на выполнимые части.
+*   **Селивоник Светлана Викторовна** — научила главному секрету: как правильно преподавать математику. Её формула успеха — три кита: **Что** давать, **Чему** учить и **Как** это делать.
+
+> *«Они общались со мной на равных. Научили не бояться — ни сложных формул, ни своего голоса. Они верили в меня и поддерживали каждый шаг на этом пути».*
+
+### 🇬🇧
+**They gave the foundation. But most importantly — they supported.**
+
+At the university, I received not just a diploma, but scientific freedom. My teachers became mentors and colleagues:
+
+*   **Chichurin Alexander Vyacheslavovich** — Master's thesis supervisor. The one who opened the world of differential equations.
+*   **Kozinsky Andrei Andreevich** — taught project management: how to bring an idea to completion.
+*   **Grinko Elena Petrovna** — my favorite PhD advisor. The best teacher of mathematics methodology and number theory. She taught me to love this subject deeply.
+*   **Basik Alexander Ivanovich** — helped navigate the complex world of Functional Analysis.
+*   **Sender Anna Nikolaevna** (PhD, Professor) — a renowned scientist in pedagogy and methodology. Helped me learn to set clear goals and break tasks into solvable steps.
+*   **Selivonik Svetlana Viktorovna** — taught the main secret: how to teach mathematics properly. Her formula for success rests on three pillars: **What** to give, **To Whom** to teach, and **How** to do it.
+
+> *"They communicated with me on equal terms. They taught me not to be afraid — neither of complex formulas nor of my own voice. They believed in me and supported every step of this journey."*
 
 ---
 
