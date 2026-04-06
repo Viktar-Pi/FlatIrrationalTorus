@@ -193,7 +193,7 @@ This repository contains the mathematical foundation proving that:
 - ♦ Открытый код + открытый доступ = наука для человечества
 - ♦ 6 апреля: статья отправлена → 12 апреля: «врата открыты» = синхроничность
 
-### 🇬
+### 
 - ♦ Zariski was born in Kobrin (1899) → his topology → structure of the Universe
 - ♦ Flat torus + irrational shift = finiteness without boundaries
 - ♦ π, √2, √3 — geometric invariants of cosmic evolution
