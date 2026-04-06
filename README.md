@@ -10,7 +10,8 @@
 
 ## 🎯 Overview
 
-Complete computational framework for the **Flat Irrational Torus ($\mathbb{IT}^3$)** model — a compact flat topology providing geometric solutions to the low-$\ell$ CMB anomaly and Hubble tension without new physics beyond General Relativity.
+Complete computational framework for the **Flat Irrational Torus (IT³)** model — a compact flat topology providing geometric solutions to the low-ℓ CMB anomaly and Hubble tension without new physics beyond General Relativity.
+
 
 ### Key Results (Planck PR4 TT)
 
