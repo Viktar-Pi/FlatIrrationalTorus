@@ -219,6 +219,8 @@ If you find an error, improve the model, or just want to discuss — open an Iss
 **Сделано с ❤️ в Кобрине**
 
 </div>
+
+---
 ─────────────────────────────────────────────
 MIT License
 Copyright (c) 2026 Viktar Lohvinovich
