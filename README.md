@@ -25,20 +25,22 @@ Complete computational framework for the **Flat Irrational Torus (IT³)** model 
 ## 🚀 Quick Start
 
 ### Option 1: Docker (Recommended)
-
 ```bash
 git clone https://github.com/Viktar-Pi/FlatIrrationalTorus.git
 cd FlatIrrationalTorus
 docker build -t it3-analysis .
 docker run -v $(pwd)/results:/app/results it3-analysis python3 analysis/run_all.py
+```
 
+### Option 2: Native Python
+```bash
 pip install -r requirements.txt
 python3 scripts/download_planck_data.py
 python3 analysis/run_all.py
-python3 scripts/plot_publication.py
+```
 
 ## 📁 Repository Structure
-
+```bash
 FlatIrrationalTorus/
 ├── analysis/ # MCMC pipeline and likelihood
 │ ├── run_all.py
@@ -69,12 +71,12 @@ FlatIrrationalTorus/
 ├── LICENSE # MIT License
 ├── CITATION.cff # Citation metadata
 └── README.md # This file
-
+```
 
 
 ## 🔬 Methodology
 
-**Model:** $\mathbb{IT}^3$ topology with $L_y/L_x = \sqrt{2}$, $L_z/L_x = \sqrt{3}$
+**Model:** IT³ topology with L<sub>y</sub>/L<sub>x</sub> = √2, L<sub>z</sub>/L<sub>x</sub> = √3
 
 **Inference:** Bayesian MCMC (emcee, 32 walkers, 5000 steps) with modified CLASS Boltzmann code
 
