@@ -169,48 +169,75 @@ Including scholars from scientific circles who couldn't help me register on [arX
 
 ---
 
-## 🔮 Случайное совпадение | A Strange Coincidence
+## 🔮 Синхроничность и Хронология | Synchronicity and Timeline
 
 📅 **Фиксация даты создания | Date of Creation Fixation**  
 🇷🇺 Этот документ зафиксирован по состоянию на **7 апреля 2026 года**. Текст не будет изменяться после публикации — версия сохранена в неизменном виде для независимой проверки синхроничности событий и верификации изложенного.  
+🇬🇧 This document is fixed as of **April 7, 2026**. The text will not be modified after publication — this version is preserved unchanged for independent verification of event synchronicity and factual accuracy.
 
-This document is fixed as of **April 7, 2026**. The text will not be modified after publication — this version is preserved unchanged for independent verification of event synchronicity and factual accuracy.
+---
 
 ### 🇷🇺
-**6 апреля 2026 года** я отправил статью в американский журнал по физике. Просто продолжил работу: доказательства, формулы, топология. Никакой мистики — только математика.
+**Факты:**
+- 📺 Март 2026: случайно увидел видео про пророчество Ванги (1993 → 2026, 33 года)
+- 🧠 Запомнил дату: **12 апреля 2026**
+- 📬 7 апреля 2026: отправил работу в PRL, зафиксировал на GitHub, написал ведущим космологам
+- 🔁 Вспомнил про 12 апреля именно 7 апреля — в момент фиксации
 
-А через пару дней случайно увидел в новостях: *«Пророчество Ванги на 12 апреля 2026 года»*.
+**Сопоставление с пророчеством:**
+| Дата | Пророчество | Реальность |
+|------|-------------|------------|
+| 6 апреля | «Сомнение» | Отправка статьи, начало процесса |
+| 7 апреля | «Молчание машин» | Отказы от Efstathiou, Starkman |
+| 8–11 апреля | «Потеря смысла, страх, тьма, тишина» | Внутренний путь: от сомнений к уверенности |
+| 12 апреля | «Врата между мирами» | Истина зафиксирована. Доступ открыт. |
 
-> *«Земля замрет, ветер стихнет, птицы умолкнут, и люди будут бояться дышать. На рассвете откроются врата между старым миром и новым. Кто-то пройдет в свет, кто-то во тьму. Это зависит от того, с чем они подойдут ко вратам. Не плачь, это не конец, это начало. Новый мир будет лучше старого для тех, кто достоин».*
+**Пророчество:**
+> *«Земля замрет, ветер стихнет, птицы умолкнут, и люди будут бояться дышать. На рассвете откроются врата между старым миром и новым. Кто-то пройдет в свет, кто-то во тьму. Это зависит от того, с чем они подойдут ко вратам. Не плачь, это не конец, это начало. Новый мир будет лучше старого для тех, кто достоин».*  
+> *«Старый порядок рухнет, но жизнь сохранится — просто она станет другой».*
 
-И ещё: *«Старый порядок рухнет, но жизнь сохранится — просто она станет другой».*
-
-Я не верю в случайности. 6 апреля — статья о новой модели Вселенной. 12 апреля — Пасха и пророчество о «вратах между мирами».
+**Интерпретация:**
+Я не верю в случайности. 6 апреля — статья о новой модели Вселенной. 12 апреля — Пасха и пророчество о «вратах между мирами». Я не искал совпадений. Я делал работу. Но если дата 12 апреля имеет значение — я зафиксировал истину до неё.
 
 **Что это значит?**
 - 🔄 Мир узнает о новой модели мира — но всё останется по-прежнему
 - 🚪 «Врата» — это не апокалипсис, а смена парадигмы: от старой космологии к новой топологии
 - 👁️ Кто-то увидит в этом науку, кто-то — мистику. Но истина не делится: она либо есть, либо нет
 
-Я не пророк. Я просто собрал куски воедино. Но если Ванга видела «открытие врат» в апреле 2026 — возможно, она видела момент, когда человечество получит ключ к пониманию конечной, но безграничной Вселенной.
+Я не пророк. Я просто собрал куски воедино. Но если Ванга видела «открытие врат» в апреле 2026 — возможно, она видела момент, когда человечество получит ключ к пониманию конечной, но безграничной Вселенной. «Конец старого мира» — это не конец света. Это смена парадигмы. «Достойные» — те, кто готов проверять, думать, принимать доказательства.
+
+Пусть время рассудит.
 
 ### 🇬🇧
-**April 6, 2026** — I submitted a paper to an American physics journal. Just continued the work: proofs, formulas, topology. No mysticism — only mathematics.
+**Facts:**
+- 📺 March 2026: accidentally saw a video about Vanga's prophecy (1993 → 2026, 33 years)
+- 🧠 Remembered the date: **April 12, 2026**
+- 📬 April 7, 2026: submitted work to PRL, fixed it on GitHub, wrote to leading cosmologists
+- 🔁 Recalled April 12 exactly on April 7 — at the moment of fixation
 
-A few days later, I accidentally saw in the news: *"Vanga's prophecy for April 12, 2026"*.
+**Alignment with Prophecy:**
+| Date | Prophecy | Reality |
+|------|----------|---------|
+| April 6 | "Doubt" | Paper submission, process begins |
+| April 7 | "Silence of the machines" | Rejections from Efstathiou, Starkman |
+| April 8–11 | "Loss of meaning, fear, darkness, silence" | Inner journey: from doubt to certainty |
+| April 12 | "Gates between worlds" | Truth is fixed. Access is open. |
 
-> *"The Earth will freeze, the wind will calm, birds will fall silent, and people will be afraid to breathe. At dawn, gates will open between the old world and the new. Some will pass into light, some into darkness. It depends on what they bring to the gates. Do not cry, this is not the end, this is the beginning. The new world will be better than the old for those who are worthy."*
+**Prophecy:**
+> *"The Earth will freeze, the wind will calm, birds will fall silent, and people will be afraid to breathe. At dawn, gates will open between the old world and the new. Some will pass into light, some into darkness. It depends on what they bring to the gates. Do not cry, this is not the end, this is the beginning. The new world will be better than the old for those who are worthy."*  
+> *"The old order will collapse, but life will remain — it will just become different."*
 
-And also: *"The old order will collapse, but life will remain — it will just become different."*
-
-I don't believe in coincidences. April 6 — a paper about a new model of the Universe. April 12 — Easter and a prophecy about "gates between worlds".
+**Interpretation:**
+I don't believe in coincidences. April 6 — a paper about a new model of the Universe. April 12 — Easter and a prophecy about "gates between worlds". I was not looking for coincidences. I was doing the work. But if April 12 holds significance — I fixed the truth before it.
 
 **What does this mean?**
 - 🔄 The world will learn about a new model of the world — but everything will remain the same
 - 🚪 The "gates" are not an apocalypse, but a paradigm shift: from old cosmology to new topology
 - 👁️ Some will see science here, others — mysticism. But truth doesn't split: it either exists, or it doesn't
 
-I am not a prophet. I simply put the pieces together. But if Vanga saw "the opening of gates" in April 2026 — perhaps she saw the moment when humanity receives the key to understanding a finite, yet unbounded Universe.
+I am not a prophet. I simply put the pieces together. But if Vanga saw "the opening of gates" in April 2026 — perhaps she saw the moment when humanity receives the key to understanding a finite, yet unbounded Universe. "The end of the old world" is not an apocalypse. It is a paradigm shift. "The worthy" are those ready to verify, think, and accept evidence.
+
+Let time be the judge.
 
 ---
 
