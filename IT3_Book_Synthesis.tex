@@ -1,0 +1,180 @@
+\documentclass[12pt,a4paper]{report}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath,amssymb}
+\usepackage{geometry}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\geometry{margin=2.5cm}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.8em}
+
+\title{\textbf{While Scientists Search for Circles: \\ The IT3 Paradigm and the Unification of Cosmology}\\[0.5cm]
+\large A Geometric and Thermodynamic Synthesis}
+\author{Victor Logvinovich\\
+M.Sc. in Physical and Mathematical Sciences\\
+Independent Researcher in Cosmological Sciences\\
+Kobrin, Belarus}
+\date{April 10, 2026}
+
+\begin{document}
+
+\maketitle
+\tableofcontents
+\newpage
+
+\chapter*{Preface: While Scientists Search for Circles}
+For more than two decades, the cosmological community has waited for a single ``smoking gun'' to prove that the universe is finite: matched circle pairs in the cosmic microwave background (CMB). The theory is elegant, the mathematics is sound, but the circles have remained elusive. While this search continues, a deeper question has been quietly answered: \textit{Does the universe need to be infinite to work?} 
+
+The Flat Irrational Torus (IT3) paradigm shows that it does not. By treating the universe as a finite, multiply-connected space with a specific geometric shape, we can resolve the low-multipole CMB anomaly, explain the Hubble tension, replace dark energy with a physical dissipation mechanism, and maintain thermodynamic stability indefinitely. The circles are a beautiful test, but they are not the foundation. The foundation is geometry, energy flow, and structure. This book walks through that foundation step by step, in plain language, showing how a finite universe not only survives but thrives.
+
+\chapter{The Shape of Space: A Finite Universe}
+\section{Why Finite?}
+Standard cosmology assumes space is infinite and simply connected. This assumption works well for most calculations, but it leaves two persistent puzzles unexplained:
+\begin{enumerate}
+    \item \textbf{The low-$\ell$ anomaly:} The CMB shows less temperature variation on the largest scales than expected. In an infinite universe, all wavelengths should exist. In a finite universe, wavelengths larger than the space itself simply cannot fit.
+    \item \textbf{The Hubble tension:} Early-universe measurements give $H_0 \approx 67.4$ km/s/Mpc, while local measurements give $H_0 \approx 73.0$ km/s/Mpc. If the universe's expansion history is slightly different than assumed, both can be right.
+\end{enumerate}
+
+\section{The Torus Analogy}
+Imagine a classic video game map. If you walk off the right edge, you reappear on the left. If you fly off the top, you reappear at the bottom. This is a \textbf{torus}. It is finite, but it has no edges. Light traveling in one direction eventually returns from the opposite side. 
+
+The IT3 model uses a 3D torus with side lengths $(L_x, L_y, L_z)$. Instead of arbitrary ratios, we fix them to irrational numbers:
+$$
+\frac{L_y}{L_x} = \sqrt{2}, \qquad \frac{L_z}{L_x} = \sqrt{3}.
+$$
+Why irrational? Because rational ratios create repeating patterns that can artificially align structures. Irrational ratios ensure that paths through space never exactly repeat, mimicking the randomness we observe while keeping the space finite.
+
+\section{What the Data Says}
+When we fit this topology to Planck CMB data, the mathematics constrains the fundamental scale to:
+$$
+L_x = 28.57^{+0.73}_{-0.87}~\text{Gpc}.
+$$
+This is not arbitrary. It sits right at the geometric limit where the universe is just large enough to contain the observable horizon, but small enough to suppress the largest CMB fluctuations. The model improves the fit to the quadrupole deficit by $\Delta\chi^2 = -5.33$ and naturally shifts the preferred Hubble constant upward, reducing the tension with local measurements. 
+
+In simple terms: a finite shape cuts off the longest waves, and that cutoff forces the expansion rate to adjust. Geometry explains what otherwise requires new particles or fine-tuning.
+
+\chapter{The Thermodynamic Engine: Energy Without Dark Energy}
+\section{The Problem of a Finite Universe}
+If the universe is finite and filled with matter, gravity should eventually pull everything back together. A closed universe collapses. An open universe expands forever but cools to absolute zero. Standard cosmology avoids this by adding a cosmological constant $\Lambda$, but $\Lambda$ has no physical mechanism and leads to the infamous $10^{120}$ vacuum energy discrepancy.
+
+A finite topology offers a different path: \textbf{energy drainage}. If space is compact, energy released by structure formation (galaxy mergers, black hole activity, gravitational waves) does not disperse forever. It interferes with itself, forming standing waves that focus toward symmetric points in the fundamental domain.
+
+\section{The Sink Mechanism}
+We model this focusing as a macroscopic negative pressure:
+$$
+P_{\text{sink}} = -\kappa \rho_m^2, \qquad \kappa = \eta G L_x^2.
+$$
+Here, $\rho_m$ is the matter density, $G$ is gravity's constant, $L_x$ is the topology scale, and $\eta$ is a geometric efficiency factor. The quadratic dependence ($\rho^2$) arises because energy injection scales with interactions (mergers, collisions), which depend on density squared.
+
+This modifies the standard energy conservation law:
+$$
+\dot{\rho}_m + 3H\rho_m = -\Gamma_{\text{sink}}\rho_m^2, \qquad \Gamma_{\text{sink}} = \eta' \frac{G L_x}{c}.
+$$
+In plain language: as the universe expands, matter dilutes normally, but a small fraction continuously drains into the topological ``center.'' This drainage acts like negative pressure, pushing space apart.
+
+\section{Replacing Dark Energy}
+When we insert this into Einstein's equations, the sink term generates an effective cosmological parameter:
+$$
+\Lambda_{\text{eff}} = \frac{8\pi G \kappa \langle \rho^2 \rangle}{c^2}.
+$$
+Unlike a true constant, $\Lambda_{\text{eff}}$ evolves with density. Early on, it is negligible. As structures form and $\rho_m$ drops, the sink gradually dominates, driving the observed accelerated expansion. Numerical integration shows the universe avoids both Big Crunch and Heat Death. It settles into a stable, non-equilibrium steady state. No dark energy field is needed. Only geometry and dissipation.
+
+\chapter{The Cosmic Sponge: How Structure Amplifies Geometry}
+\section{Voids Are Not Empty}
+Galaxy surveys reveal that $\sim 75\%$ of cosmic volume is occupied by voids, connected by thin filaments. This is not random noise; it is a percolating network with fractal dimension $D_f \approx 2.6$. In the IT3 framework, this network is functional. It acts as a low-resistance waveguide for relativistic energy carriers.
+
+\section{The Channeling Factor}
+We quantify the amplification using percolation theory:
+$$
+\xi(\phi) = \left(\frac{\phi}{1-\phi}\right)^\alpha, \qquad \alpha \approx 1.2,
+$$
+where $\phi$ is the void fraction. Today, $\phi_0 \approx 0.75$, giving $\xi_0 \approx 3.8$. This means the sponge structure multiplies the sink efficiency by nearly four times. Crucially, $\xi(\phi) \to 0$ in the early homogeneous universe, so the mechanism stays dormant until large-scale structure forms.
+
+\section{Late-Time Activation}
+The porosity evolves logistically:
+$$
+\phi(z) = \frac{\phi_0}{1 + \exp[(z - z_{\text{perc}})/\Delta z]}, \quad z_{\text{perc}} \approx 1.0.
+$$
+This produces an activation function that switches on around $z \lesssim 1$. Before that, the universe expands like standard $\Lambda$CDM. After that, the sponge channels energy efficiently, boosting the local expansion rate. This timing is not tuned; it is a direct consequence of when voids percolate.
+
+\chapter{Unifying the Tensions: Why Both Measurements Are Right}
+\section{The Hubble Tension Revisited}
+Early-universe probes (CMB) measure expansion by extrapolating from $z \approx 1100$ assuming constant $\Lambda$. They see the baseline rate: $H_0^{\text{early}} \approx 67.4$ km/s/Mpc. Local probes (supernovae, Cepheids) measure expansion at $z < 0.1$, deep inside the sponge-active regime. They see the boosted rate: $H_0^{\text{local}} \approx 73.0$ km/s/Mpc.
+
+Both are correct. They are measuring the same universe at different topological phases.
+
+\section{Preserving the CMB}
+A natural question follows: if the expansion rate changes locally, doesn't that break the CMB acoustic peaks? No. The angular diameter distance to last scattering is an integral:
+$$
+D_A(z_*) = \frac{c}{1+z_*} \int_0^{z_*} \frac{dz}{H(z)}.
+$$
+Because the sponge activates only at $z \lesssim 1$, the integral is dominated by early-universe physics where $H(z)$ matches $\Lambda$CDM. The late-time modification contributes less than $1\%$ to the total distance. The acoustic scale remains intact. The tension dissolves not by changing early physics, but by recognizing that late physics is phase-dependent.
+
+\section{The $S_8$ Tension}
+The same sink mechanism introduces additional friction in the growth of density perturbations. The modified growth equation becomes:
+$$
+\ddot{\delta} + (2H + \Gamma_{\text{sink}}^{\text{eff}}\bar{\rho}_m)\dot{\delta} = [4\pi G\bar{\rho}_m + \dots]\delta.
+$$
+The extra friction suppresses structure formation by $\sim 10\%$ at $z=0$, bringing the predicted $S_8$ into agreement with weak lensing surveys. Again, no new particles. Only topology-driven dissipation acting on structure growth.
+
+\chapter{What We Predict: Beyond the Circles}
+\section{Matched Circles Are Just One Test}
+The IT3 paradigm predicts matched circle pairs in the CMB with angular radii $\alpha \approx 30^\circ\text{--}60^\circ$. Their detection would be spectacular. Their absence would not falsify the entire framework, because the theory makes multiple independent predictions:
+\begin{enumerate}
+    \item \textbf{Redshift-dependent $H_0(z)$:} Inferred $H_0$ should rise monotonically for $z < 1$, tracking sponge activation.
+    \item \textbf{Enhanced ISW in super-voids:} Topological energy flux should produce $\Delta T/T \sim 10^{-6}$ in voids with $R > 100$ Mpc, roughly double the $\Lambda$CDM prediction.
+    \item \textbf{Void size suppression:} Modified pressure support should reduce the number of $R > 50$ Mpc voids by $\sim 15\%$.
+    \item \textbf{Anisotropic local $H_0$:} Filament alignment should induce a $\sim 1\%$ dipole in local expansion measurements.
+    \item \textbf{Tensor mode suppression:} Topological friction should keep the tensor-to-scalar ratio $r < 0.01$, consistent with current BICEP/Keck limits.
+\end{enumerate}
+
+\section{A Multi-Pronged Framework}
+Science advances not by waiting for a single miracle observation, but by building networks of testable predictions. IT3 provides that network. If circles are found, topology is confirmed. If ISW anomalies appear in voids, the sponge is confirmed. If $H_0(z)$ evolves as predicted, late-time activation is confirmed. The framework stands or falls on the consistency of the whole, not the detection of one feature.
+
+\chapter{Conclusion: Geometry, Not Mystery}
+Modern cosmology has spent decades adding invisible components to preserve an assumption: that space is infinite. The IT3 paradigm asks a simpler question: \textit{What if space is finite, and we simply forgot to account for how energy flows in a closed shape?}
+
+The answer is coherent:
+\begin{itemize}
+    \item \textbf{Shape} cuts off long waves, explaining the low-$\ell$ anomaly.
+    \item \textbf{Flow} drains energy into topological antinodes, replacing dark energy.
+    \item \textbf{Structure} channels that flow through voids, activating acceleration and suppressing excess clustering.
+\end{itemize}
+
+No new particles. No fine-tuning. No multiverse. Only the geometry of a finite torus, the thermodynamics of dissipation, and the observed sponge-like distribution of matter. The matched circles remain a beautiful target for future CMB experiments. But while scientists search for them, the mathematics already works. The tensions dissolve. The universe stabilizes. The puzzle pieces lock together.
+
+The next generation of surveys---CMB-S4, Euclid, DESI Year 5, LSST---will test these predictions decisively. If the data align, cosmology will shift from a paradigm of invisible substances to one of visible geometry. If they do not, the model will be refined or replaced. That is how science proceeds. But for now, the framework is complete, self-consistent, and ready for the stars to judge.
+
+\begin{thebibliography}{99}
+
+\bibitem[Arnold \& Avez(1968)]{Arnold1968}
+Arnold V.~I., Avez A., 1968, Ergodic Problems of Classical Mechanics. Benjamin
+
+\bibitem[Cornish et al.(2004)]{Cornish2004}
+Cornish N.~J., et al., 2004, Classical and Quantum Gravity, 21, S67
+
+\bibitem[Logvinovich(2026a)]{Logvinovich2026a}
+Logvinovich V., 2026a, Zenodo, DOI:10.5281/zenodo.19431323 (Paper I)
+
+\bibitem[Logvinovich(2026b)]{Logvinovich2026b}
+Logvinovich V., 2026b, Zenodo, DOI:10.5281/zenodo.19473353 (Paper II)
+
+\bibitem[Logvinovich(2026c)]{Logvinovich2026c}
+Logvinovich V., 2026c, Zenodo, DOI:10.5281/zenodo.19479551 (Paper III)
+
+\bibitem[Logvinovich(2026d)]{Logvinovich2026d}
+Logvinovich V., 2026d, Zenodo, DOI:10.5281/zenodo.19489307 (Paper IV)
+
+\bibitem[Pan et al.(2012)]{Pan2012}
+Pan D.~C., et al., 2012, MNRAS, 421, 926
+
+\bibitem[Planck Collaboration(2020)]{Planck2020}
+Planck Collaboration, 2020, A\&A, 641, A6
+
+\bibitem[Riess et al.(2024)]{Riess2024}
+Riess A.~G., et al., 2024, ApJL, 934, L7
+
+\end{thebibliography}
+
+\end{document}
