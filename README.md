@@ -20,6 +20,7 @@
 | **Topology Scale** | Lₓ = 28.57 Gpc | — | **Ergodic trap confirmed** ✅ |
 
 **Structural tests**: Dirac degeneracy (32-fold ≥ 8), No CMB matched circles, Diophantine attractor at (√2, √3)
+
 **Files**: [it3_mega_verification.py](https://github.com/Viktar-Pi/FlatIrrationalTorus/blob/main/it3_mega_verification.py)
 ---
 
