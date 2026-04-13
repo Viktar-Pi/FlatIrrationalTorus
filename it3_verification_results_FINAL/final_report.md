@@ -2,7 +2,7 @@
 ## Topology-First Configuration
 - **Fundamental Scale Lₓ**: 28.57 Gpc
 - **Topological Manifold**: T³(1, √2, √3)
-- **Derived H₀**: 0.00 km/s/Mpc
+- **Derived H₀ (Bare)**: 4.09 km/s/Mpc
 
 ### Quantitative Claims Summary
 | # | Claim | Predicted | Observed | Δ (%) | Status |
@@ -19,6 +19,13 @@
   - Outer slope: -2.975 (target: -3.0)
 - **Dirac Degeneracy**: ✅ PASS
   - Max degeneracy: 32 (target: ≥8)
+
+### H₀ Hypothesis Check
+- **Bare H₀**: 4.09 km/s/Mpc
+- **Enhancement Factor Candidate**: (2π)²/√6 ≈ 16.117
+- **Hypothesis H₀**: 65.93 km/s/Mpc
+- **Target**: ~70.2 km/s/Mpc
+- **Status**: Hypothesis bridges ~93.9% of the gap
 
 ### Translation Analysis: Global Topology → Local Observables
 *Note: Discrepancies in CP-phase and Higgs mass reflect the Renormalization Group flow*

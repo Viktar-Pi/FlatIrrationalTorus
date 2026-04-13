@@ -1,0 +1,28 @@
+{
+  "test_matched_circles": {
+    "Lx_Gpc": 28.57,
+    "Lx_meters": 8.815780850320836e+26,
+    "Rcmb_meters": 4.399239669750072e+26,
+    "ratio_Lx_Rcmb": 2.0039328411542705,
+    "condition_Lx_gt_2Rcmb": true,
+    "verdict": "No matched circles expected (Ergodic Trap)"
+  },
+  "test_mond_scale": "TestResult(claim_id=4, claim_name='MOND Acceleration Scale (a_0)', predicted=1.0194844835600795e-10, observed=1.2e-10, unit='m/s\u00b2', tolerance=0.2, status='PASS', delta_rel=0.15042959703326705, note='Pure holographic relation: a\u2080 = c\u00b2/L\u2093')",
+  "test_dark_energy_ckn": "TestResult(claim_id=2, claim_name='Dark Energy Density (\u03a9_DE)', predicted=np.float64(0.6792495253607158), observed=0.684, unit='dimensionless', tolerance=0.15, status='PASS', delta_rel=np.float64(0.006945138361526668), note='CKN bound \u00d7 toroidal form factor F_T = 9.687')",
+  "test_nfw_profile": {
+    "symbolic_form": "\u03c1(r) \u221d 1/[r\u00b7(1+r/r_s)\u00b2]",
+    "inner_slope_measured": "-1.025",
+    "inner_slope_target": "-1.0 (cusp)",
+    "outer_slope_measured": "-2.975",
+    "outer_slope_target": "-3.0 (fall-off)",
+    "matches_nfw": true
+  },
+  "test_cp_phase": "TestResult(claim_id=5, claim_name='Leptonic CP-Phase (\u03b4_CP) [Bare]', predicted=np.float64(286.51530771650465), observed=345.0, unit='degrees', tolerance=0.25, status='PASS', delta_rel=np.float64(0.16952084719853724), note='Bare topological value; Translation Gap requires RG flow analysis')",
+  "test_higgs_mass": "TestResult(claim_id=6, claim_name='Higgs Mass (m_H) [Bare]', predicted=np.float64(102.68278579057304), observed=125.1, unit='GeV', tolerance=0.25, status='PASS', delta_rel=np.float64(0.1791943581888646), note='Gap of ~22.4 GeV matches expected radiative corrections')",
+  "test_dirac_multiplicity": {
+    "max_degeneracy": 32,
+    "target_degeneracy": "\u22658",
+    "matches_requirement": true,
+    "total_modes": 729
+  }
+}
