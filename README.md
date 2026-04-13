@@ -58,6 +58,8 @@ This candidate bridges **~94%** of the gap without fitted parameters. The remain
 | **Matched Circles** | None expected | $L_x > 2·R_{\text{CMB}}$ ✅ |
 | **Diophantine Attractor** | $(\sqrt{2}, \sqrt{3})$ unique minimum | Optimality confirmed ✅ |
 
+**Files:** [it3_mega_verification.py](it3_mega_verification.py)
+
 ### 📦 Reproducibility
 
 ```bash
@@ -70,7 +72,7 @@ python3 it3_mega_verification.py
 # View results
 cat it3_verification_results_FINAL/final_report.md
 
-**Files:** [it3_mega_verification.py](it3_mega_verification.py)
+```
 
 ---
 
