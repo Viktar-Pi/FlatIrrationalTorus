@@ -1,0 +1,27 @@
+{
+  "test_mond_scale": "TestResult(claim_id=4, claim_name='MOND Acceleration Scale', predicted=np.float64(1.1998409195036732e-10), observed=1.2e-10, unit='m/s\u00b2', tolerance=0.1, status='PASS', delta_rel=np.float64(0.00013256708027232218), note='Holographic bound with geometric correction')",
+  "test_dark_energy_ckn": "TestResult(claim_id=2, claim_name='Dark Energy Density (\u03a9_DE)', predicted=np.float64(0.7388002973920464), observed=0.684, unit='dimensionless', tolerance=0.15, status='PASS', delta_rel=np.float64(0.08011739384802104), note='CKN bound with IR cutoff Lx and volume correction')",
+  "test_cp_phase": "TestResult(claim_id=5, claim_name='Leptonic CP-phase \u03b4_CP', predicted=np.float64(344.9644304906716), observed=345.0, unit='degrees', tolerance=0.02, status='PASS', delta_rel=np.float64(0.000103100027038873), note='Geometric phase + interference correction')",
+  "test_higgs_mass": "TestResult(claim_id=6, claim_name='Higgs Boson Mass', predicted=np.float64(125.06763309291796), observed=125.1, unit='GeV', tolerance=0.02, status='PASS', delta_rel=np.float64(0.00025872827403705694), note='Diophantine constraint + geometric scaling')",
+  "test_nfw_from_fractional_laplacian": {
+    "symbolic_phi": "\\frac{rs^{2}}{r \\left(r + rs\\right)^{2}}",
+    "inner_asymptote": "r^-1",
+    "outer_asymptote": "r^-3",
+    "measured_inner_slope": "-1.025",
+    "measured_outer_slope": "-2.975",
+    "matches_nfw": true
+  },
+  "test_dirac_multiplicity": {
+    "max_degeneracy": 32,
+    "matches_8_fold": true,
+    "total_modes": 729
+  },
+  "test_matched_circles": {
+    "Lx_meters": 2.112354698726431e+27,
+    "Rcmb_meters": 4.399239669750072e+26,
+    "condition_Lx_gt_2Rcmb": true,
+    "angular_radius_deg": 0.0,
+    "planck_resolution_deg": 0.07,
+    "verdict": "No matched circles expected"
+  }
+}
