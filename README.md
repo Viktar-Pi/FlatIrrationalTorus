@@ -59,7 +59,7 @@ This candidate bridges **~94%** of the gap without fitted parameters. The remain
 | **Diophantine Attractor** | $(\sqrt{2}, \sqrt{3})$ unique minimum | Optimality confirmed ✅ |
 
 **Files:** [it3_mega_verification.py](it3_mega_verification.py)
-
+**Zenodo:** https://zenodo.org/records/19560608
 ### 📦 Reproducibility
 
 ```bash
