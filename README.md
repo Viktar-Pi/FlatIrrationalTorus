@@ -103,7 +103,33 @@ https://zenodo.org/records/19599505
 
 **How to cite:**
 
+@misc{logvinovich2026it3v13,
+author       = {Logvinovich, Victor},
+title        = {The IT³ Paradigm v13.0: ΛCDM as the Local Limit of a Compact Irrational Topology + Unified Topological RG Flow},
+year         = {2026},
+publisher    = {Zenodo},
+doi          = {10.5281/zenodo.19599505},
+url          = {https://zenodo.org/records/19599505}
+}
 
+
+**Author:** Victor Logvinovich — lomakez@icloud.com
+
+---
+
+## 📖 Project Philosophy
+
+The project follows the **zero-parameter philosophy**:  
+the code cannot be tuned to fit data.  
+It either exactly reproduces observed physics from pure geometry or falsifies the paradigm.
+
+**License:** MIT (open science encouraged)
+
+---
+
+**"The complexities of the Standard Model and the dark sectors of cosmology are deterministically governed by the arithmetic invariants of a compact irrational 3-torus."**
+
+— IT³ Master Verification Engine v13.0 (Geometric Purity Edition)
 
 ---
 
