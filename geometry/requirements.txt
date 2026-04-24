@@ -1,0 +1,26 @@
+# ==============================================================================
+# IT³ Framework - Python Dependencies
+# ==============================================================================
+
+# Numerical computing
+numpy>=1.24.0
+scipy>=1.10.0
+
+# Visualization
+matplotlib>=3.7.0
+
+# Data handling
+pandas>=2.0.0
+
+# Jupyter notebooks (optional)
+jupyter>=1.0.0
+ipykernel>=6.0.0
+
+# ==============================================================================
+# R Dependencies (install via R)
+# ==============================================================================
+# Run in R:
+# install.packages(c("MASS", "matrixStats"))
+# 
+# Or use the R script:
+# source("install_r_dependencies.R")
