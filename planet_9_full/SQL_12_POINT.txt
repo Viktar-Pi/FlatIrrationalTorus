@@ -1,0 +1,23 @@
+SELECT 
+    id, ra, dec, pmra, pmdec, pmraerr, pmdecerr, 
+    gmag, rmag, imag, ndet, mjd, deltamjd, class_star, flags
+FROM nsc_dr2.object
+WHERE (
+    (ra BETWEEN 42.0 AND 48.0 AND dec BETWEEN -3.0 AND 3.0) OR
+    (ra BETWEEN 132.0 AND 138.0 AND dec BETWEEN -3.0 AND 3.0) OR
+    (ra BETWEEN 222.0 AND 228.0 AND dec BETWEEN -3.0 AND 3.0) OR
+    (ra BETWEEN 312.0 AND 318.0 AND dec BETWEEN -3.0 AND 3.0) OR
+    (ra BETWEEN 357.0 AND 360.0 AND dec BETWEEN 42.0 AND 48.0) OR
+    (ra BETWEEN 0.0 AND 3.0 AND dec BETWEEN 42.0 AND 48.0) OR
+    (ra BETWEEN 87.0 AND 93.0 AND dec BETWEEN 42.0 AND 48.0) OR
+    (ra BETWEEN 177.0 AND 183.0 AND dec BETWEEN 42.0 AND 48.0) OR
+    (ra BETWEEN 267.0 AND 273.0 AND dec BETWEEN 42.0 AND 48.0) OR
+    (ra BETWEEN 357.0 AND 360.0 AND dec BETWEEN -48.0 AND -42.0) OR
+    (ra BETWEEN 0.0 AND 3.0 AND dec BETWEEN -48.0 AND -42.0) OR
+    (ra BETWEEN 87.0 AND 93.0 AND dec BETWEEN -48.0 AND -42.0) OR
+    (ra BETWEEN 177.0 AND 183.0 AND dec BETWEEN -48.0 AND -42.0) OR
+    (ra BETWEEN 267.0 AND 273.0 AND dec BETWEEN -48.0 AND -42.0)
+)
+AND (pmraerr > 90.0 OR pmdecerr > 90.0 OR gmag > 90.0 OR (pmra*pmra + pmdec*pmdec) > 2500.0)
+AND deltamjd > 30.0
+AND ndet >= 3
