@@ -1,0 +1,30 @@
+SELECT TOP 50000
+    id, ra, dec, 
+    pmra, pmdec, pmraerr, pmdecerr,
+    gmag, rmag, imag,
+    ndet, mjd, deltamjd,
+    class_star, flags,
+    random_id
+
+FROM nsc_dr2.object
+
+WHERE
+    -- === ЦЕЛЕВОЙ УЗЕЛ E9: RA=270°, Dec=45° ±3° ===
+    ra BETWEEN 267.0 AND 273.0
+    AND dec BETWEEN 42.0 AND 48.0
+    
+    -- === АНОМАЛИИ ПАЙПЛАЙНА ("Каменные щиты") ===
+    AND (
+        pmraerr > 90.0 
+        OR pmdecerr > 90.0 
+        OR (pmra*pmra + pmdec*pmdec) > 2500.0
+    )
+    
+    -- === МИНИМАЛЬНОЕ КАЧЕСТВО ===
+    AND deltamjd > 30.0
+    AND ndet >= 3
+    
+    -- === ИСКЛЮЧЕНИЕ ЗАВЕДОМО БИТЫХ ===
+    AND gmag < 90.0
+
+ORDER BY random_id

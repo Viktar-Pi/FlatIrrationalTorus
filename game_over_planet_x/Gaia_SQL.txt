@@ -1,0 +1,50 @@
+SELECT TOP 50000
+
+    ra,
+    dec,
+    
+
+    pmra,
+    pmdec,
+    pmra_error,
+    pmdec_error,
+    
+
+    parallax,
+    parallax_error,
+    parallax_over_error,
+    
+
+    ruwe,
+    astrometric_excess_noise,
+    astrometric_gof_al,
+
+    phot_g_mean_mag,
+    bp_rp,
+
+    source_id,
+    random_index
+
+FROM gaia_dr3.gaia_source
+
+WHERE
+    ra BETWEEN 267.0 AND 273.0
+    AND dec BETWEEN 42.0 AND 48.0
+    
+    AND ruwe < 1.4                          
+    AND parallax_over_error > 5              
+    AND phot_g_mean_mag < 20.0               
+    AND astrometric_excess_noise < 1.0       
+    
+    AND (
+        SQRT(pmra*pmra + pmdec*pmdec) > 50.0
+        OR
+        (SQRT(pmra*pmra + pmdec*pmdec) / SQRT(pmra_error*pmra_error + pmdec_error*pmdec_error)) > 10.0
+        OR
+        (astrometric_excess_noise > 0.5 AND SQRT(pmra*pmra + pmdec*pmdec) BETWEEN 10.0 AND 100.0)
+    )
+    
+    AND ipd_frac_multi_peak < 5              
+    AND duplicated_source = 0                
+
+ORDER BY random_index
